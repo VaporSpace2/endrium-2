@@ -29,8 +29,8 @@ shootSound: lasa
    lead/60
    graphite/60
 metaglass/60
-Silicon/100
-Plastanium/60
+silicon/100
+plastanium/60
   ]
   coolantMultiplier: 1.0
   category: turret
