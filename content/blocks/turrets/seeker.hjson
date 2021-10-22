@@ -5,7 +5,7 @@
   health: 400
   size: 2
   recoilAmount: 5
-  reloadTime: 50.0
+  reloadTime: 60.0
   range: 200
   chargeMaxDelay: 30
 shootSound: lasa
@@ -17,10 +17,10 @@ shootSound: lasa
     lifetime: 30
     drawSize: 500
     collidesAir: false
-    damage: 35
+    damage: 230
   }
   targetAir: false
-  powerUse: 4.0
+  powerUse: 5.0
   inaccuracy: 0.0
   rotateSpeed: 5
   chargeEffects: 50.0
