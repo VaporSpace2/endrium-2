@@ -4,7 +4,7 @@ description: "uses the helium and electrons created from decay of thorium to gen
 itemCapacity: 20
 size: 1
 hasLiquids: false
-powerProduction: 3.5
+powerProduction: 2.3
 itemDuration: 700
 generateEffect: "smeltsmoke"
 consumes: {
