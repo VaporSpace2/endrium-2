@@ -9,15 +9,15 @@ plans: [
     time: 1080
     requirements: [
       silicon/25
-      Lead/25
+      lead/25
       titanium/15
     ]
   }
 ]
 requirements:[
-Silicon/100
-Titanium/80
-Lead/30
+silicon/100
+titanium/80
+lead/30
 ]
 research: ground-factory
 category: units
