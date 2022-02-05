@@ -1,0 +1,14 @@
+name: Container
+description: Container, use to store small amounts of any item.
+type: StorageBlock
+itemCapacity: 160
+hasItems: true
+health: 800
+size: 2
+requirements: [
+Copper/35
+Lead/35
+Silicon/25
+]
+category: effect
+research: conveyer
