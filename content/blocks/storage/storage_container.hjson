@@ -7,7 +7,7 @@ health: 800
 size: 2
 requirements: [
 copper/45
-Silicon/35
+silicon/35
 ]
 category: effect
 research: conveyer
