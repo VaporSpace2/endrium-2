@@ -1,0 +1,34 @@
+type: ground
+name: Raider
+description: Assault unit that excels at ruining bases. Attacks do more damage to buildings.
+canBoost: true
+health: 540
+buildSpeed: 0.35
+itemCapacity: 45
+mineTier: 2
+mineSpeed: 15
+armor: 4
+boostMultiplier: 1.2
+speed: 0.7
+abilites: [
+{
+type: ForceFieldAbility
+radius: 40
+regen: 0.5
+max: 75
+cooldown: 240
+}
+]
+weapons: [
+{
+name: raider-cannon
+reload: 40
+bullet: {
+type: ShrapnelBulletType
+damage: 75
+buildingDamageMultiplier: 1.7
+pierce: true
+pierceCap: 12
+}
+}
+]
