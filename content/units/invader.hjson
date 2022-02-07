@@ -13,7 +13,7 @@ weapons: [
   {
     name: LaserCannon
     top: false
-    x: 0
+    x: 1
     y: 0
     reload: 60
     recoil: 5
