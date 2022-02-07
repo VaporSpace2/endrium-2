@@ -15,10 +15,11 @@ name: assassin-railgun
 reload: 330
 x: 0
 y: 0
-bullet: {
 mirror: false
+bullet: {
 shootEffect: instShoot
 hitEffect: instHit
+trailSpacing: 10
 smokeEffect: smokeCloud
 trailEffect: instTrail
 despawnEffect: instBomb
