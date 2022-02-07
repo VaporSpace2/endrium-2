@@ -1,0 +1,31 @@
+type: legs
+name: Assailant
+description: Large and bulky unit with a railgun attached to it.
+health: 1080
+legCount: 4
+allowLegStep: true
+legSplashDamage: 15
+itemCapacity: 55
+immunites: [
+burning
+]
+weapons: [
+{
+name: assassin-railgun
+reload: 330
+x: 0
+y: 0
+bullet: {
+mirror: false
+shootEffect: instShoot
+hitEffect: instHit
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+damage: 690
+speed: 450
+lightning: 5
+lightningDamage: 18
+}
+}
+]
