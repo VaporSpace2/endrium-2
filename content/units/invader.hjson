@@ -7,7 +7,7 @@ armor: 3
 canBoost: false
 boostMultiplier: 1.8
 buildSpeed: 0.25
-itemCapacity: 30
+itemCapacity: 10
 mineTier: 1
 mineSpeed: 2
 lightRadius: 40
@@ -19,7 +19,7 @@ weapons: [
     x: 2
     y: -1
     reload: 60
-    recoil: 5
+    recoil: 3
     alternate: true
     mirror: true
     shootY: 4
@@ -27,7 +27,7 @@ weapons: [
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 55
+      damage: 45
       collidesTeam: true
       healPercent: 4
       recoil: 0.5
