@@ -1,4 +1,6 @@
 type: mech
+name: Invader
+description: Invasive support unit with a strong laser gun
 speed: 0.6
 health: 300
 armor: 3
@@ -9,22 +11,24 @@ lightRadius: 40
 lightColor: 84f591
 weapons: [
   {
-    name: railgunlaser
+    name: LaserCannon
     top: false
     x: 0
     y: 0
     reload: 60
     recoil: 5
+    alternate: true
+    mirror: true
     shootY: 4
     shootSound: laser
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 30
+      damage: 55
       collidesTeam: true
       healPercent: 4
       recoil: 0.5
-      length: 120
+      length: 160
       colors: [84f59140, 84f591, ffffff]
       lightColor: 84f591
     }
