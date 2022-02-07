@@ -1,0 +1,6 @@
+type: material
+name: Endrium
+description: High-Tier alloy used in end-game structures and self repair walls.
+cost: 10
+research: surge-alloy
+hardness: 35
