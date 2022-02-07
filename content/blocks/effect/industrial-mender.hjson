@@ -1,9 +1,9 @@
 type: MendProjector
 name: Industrial Projector
 description: Large Projector that heals rapidly. Large range.
-consumes: [
+consumes: {
 power: 3.85
-]
+}
 size: 3
 reload: 120
 range: 320
