@@ -5,12 +5,12 @@ consumes: {
 }
 plans: [
   {
-    unit: purger
+    unit: invader
     time: 1080
     requirements: [
-      silicon/25
+      silicon/30
       lead/25
-      titanium/15
+      titanium/20
     ]
   }
 ]
