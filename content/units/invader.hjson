@@ -7,13 +7,16 @@ armor: 3
 canBoost: false
 boostMultiplier: 1.8
 buildSpeed: 0.25
+itemCapacity: 30
+mineTier: 1
+mineSpeed: 15
 lightRadius: 40
 lightColor: 84f591
 weapons: [
   {
     name: LaserCannon
     top: false
-    x: 1
+    x: 2
     y: 0
     reload: 60
     recoil: 5
