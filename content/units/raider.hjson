@@ -1,4 +1,4 @@
-type: ground
+type: mech
 name: Raider
 description: Assault unit that excels at ruining bases. Attacks do more damage to buildings.
 canBoost: true
