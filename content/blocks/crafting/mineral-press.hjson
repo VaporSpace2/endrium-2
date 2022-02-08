@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Mineral Press
+description: Processes tetratite from thorium, titanium, and graphite.
+size: 3
+consumes: {
+power: 5.60
+items: {
+item: [
+thorium/5
+titanium/4
+graphite/7
+]
+}
+liquid: {
+liquid: water
+amount: 0.3
+}
+}
+research: alloy-smelter
+outputItem: tetratite/2
+requirements: [
+lead/375
+silicon/450
+titanium/350
+plastanium/280
+phase-fabric/270
+surge-alloy/250
+]
