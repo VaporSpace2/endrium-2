@@ -24,7 +24,7 @@ smokeEffect: smokeCloud
 trailEffect: instTrail
 despawnEffect: instBomb
 damage: 690
-speed: 450
+speed: 80
 lightning: 5
 lightningDamage: 18
 }
