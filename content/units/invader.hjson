@@ -1,15 +1,15 @@
 type: mech
 name: Invader
 description: Invasive support unit with a strong laser gun
-speed: 0.6
+speed: 0.8
 health: 135
 armor: 3
-canBoost: false
+canBoost: true
 boostMultiplier: 1.8
 buildSpeed: 0.25
 itemCapacity: 10
 mineTier: 1
-mineSpeed: 2
+mineSpeed: 0.5
 lightRadius: 40
 lightColor: 84f591
 weapons: [
@@ -17,7 +17,7 @@ weapons: [
     name: LaserCannon
     top: false
     x: 2
-    y: -1
+    y: 0
     reload: 60
     recoil: 3
     alternate: true
@@ -42,7 +42,7 @@ abilities: [
     type: RepairFieldAbility
     amount: 5
     reload: 60
-    range: 40
+    range: 48
   }
 ]
 research: assembler
