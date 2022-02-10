@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Endrium Smelter
+description: Smelter for Endrium. Uses large amounts of power.
+size: 4
+itemCapacity: 70
+consumes: {
+power: 56
+items: {
+items: [
+tetratite/53
+spore-pod/35
+phase-fabric/55
+surge-alloy/33
+plastanium/45
+]
+}
+liquids: {
+liquid: cryofluid
+amount: 0.8
+}
+}
+outputItem: endrium/1
+outputLiquid: slag/2
+requirements: [
+lead/780
+silicon/1200
+tetratite/760
+plastanium/1000
+surge-alloy/550
+]
+category: crafting
+research: mineral-press
