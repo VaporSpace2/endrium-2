@@ -14,7 +14,7 @@ surge-alloy/33
 plastanium/45
 ]
 }
-liquids: {
+liquid: {
 liquid: cryofluid
 amount: 0.8
 }
