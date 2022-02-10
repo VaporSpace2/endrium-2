@@ -6,7 +6,7 @@ drillTime: 50.7
 tier: 7
 consumes: {
 power: 16
-liquids: {
+liquid: {
 liquid: water
 amount: 0.34
 optional: false
