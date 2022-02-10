@@ -28,7 +28,7 @@ top: true
 rotate: false 
 x: 10
 y: 8
-shootsound: shootBig
+shootSound: shootBig
 bullet: {
 type: ShrapnelBulletType
 damage: 75
