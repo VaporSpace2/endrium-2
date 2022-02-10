@@ -29,6 +29,7 @@ rotate: false
 x: 10
 y: 8
 Recoil: 4
+9
 shootSound: shotgun
 bullet: {
 type: ShrapnelBulletType
