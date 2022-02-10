@@ -2,6 +2,6 @@ type: material
 name: Tertratite
 description: Very dense mineral that has to be crafted.
 details: Thick and Dense mineral that can be used as ammunition, or in advanced blocks/units.
-hardness: 15
+hardness: 6
 cost: 7
 research: thorium
