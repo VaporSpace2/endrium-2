@@ -1,4 +1,4 @@
 type: Floor
-variants: 3
+variants: 1
 itemDrop: tetratite
 playerUnminable: true
