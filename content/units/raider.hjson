@@ -23,6 +23,9 @@ weapons: [
 {
 name: scattershot
 reload: 40
+mirror: true
+top: true
+rotate: false 
 bullet: {
 type: ShrapnelBulletType
 damage: 75
