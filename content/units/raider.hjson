@@ -26,8 +26,8 @@ reload: 40
 mirror: true
 top: true
 rotate: false 
-x: 5
-y: 15
+x: 8
+y: 8
 bullet: {
 type: ShrapnelBulletType
 damage: 75
