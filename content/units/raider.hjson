@@ -1,6 +1,6 @@
 type: mech
 name: Raider
-description: Assault unit that excels at ruining bases. Attacks do more damage to buildings.
+description: Assault unit armed with scatter shots. Deals lots of damage but only to close range targets.
 canBoost: true
 health: 540
 buildSpeed: 0.35
@@ -26,6 +26,8 @@ reload: 40
 mirror: true
 top: true
 rotate: false 
+x: 0
+y: 0
 bullet: {
 type: ShrapnelBulletType
 damage: 75
