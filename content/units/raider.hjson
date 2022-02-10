@@ -21,7 +21,7 @@ cooldown: 240
 ]
 weapons: [
 {
-name: raider-cannon
+name: scattershot
 reload: 40
 bullet: {
 type: ShrapnelBulletType
