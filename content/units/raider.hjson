@@ -11,13 +11,12 @@ armor: 4
 boostMultiplier: 1.2
 speed: 0.7
 abilites: {
-}
+
 type: ForceFieldAbility
 radius: 60
 regen: 0.5
 max: 75
 cooldown: 240
-}
 }
 weapons: [
 {
