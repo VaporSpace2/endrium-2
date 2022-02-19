@@ -1,0 +1,39 @@
+type: itemTurret
+name: Storm
+description: A wide range turret designed specifically to destroy large groups of enemies.
+size: 3
+range: 500
+consumes: {
+power: 20
+}
+reloadTime: 600
+ammoPerShot: 60
+maxAmmo: 840
+inaccuracy: 360
+shots: 75
+ammoTypes: {
+tetratite: {
+type: BasicBulletType
+lifetime: 70
+speed: 7
+homingRange: 70
+homingPower: 80
+ammoMultiplier: 120
+status: burning
+hittable: false
+reflectable: false
+absorbable: false
+damage: 35
+pierce: true
+buildingDamageMultiplier: 0.3
+}
+}
+requirements: [
+lead/1750
+silicon/1000
+plastanium/750
+surge-alloy/500
+endrium/400
+]
+research: cyclone
+requires: tar-fields
