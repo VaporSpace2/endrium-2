@@ -2,6 +2,7 @@ type: itemTurret
 name: Storm
 description: A wide range turret designed specifically to destroy large groups of enemies.
 size: 3
+range: 500
 consumes: {
 power: 20
 }
