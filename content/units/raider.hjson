@@ -10,7 +10,7 @@ mineSpeed: 3
 armor: 4
 boostMultiplier: 1.2
 speed: 0.7
-abilites: [
+abilites: {
 {
 type: ForceFieldAbility
 radius: 60
@@ -18,10 +18,10 @@ regen: 0.5
 max: 75
 cooldown: 240
 }
-]
+}
 weapons: [
 {
-name: scattershot
+name: laserCannon
 reload: 40
 mirror: true
 top: true
