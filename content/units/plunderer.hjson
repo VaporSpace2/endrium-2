@@ -7,4 +7,3 @@ armor: 16
 legs: 6
 legSize: 32
 allowLegStep: true
-weapons: {
