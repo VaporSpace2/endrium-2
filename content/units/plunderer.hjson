@@ -7,7 +7,7 @@ armor: 16
 legs: 6
 legSize: 32
 allowLegStep: true
-weapons: {
+weapons: [
 {
 name: LaserCannon
 inaccuracy: 3
@@ -46,4 +46,4 @@ lightning: 12
 lightningDamage: 17
 }
 }
-}
+]
