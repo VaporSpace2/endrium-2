@@ -1,12 +1,9 @@
-type: legs
+type: mech
 name: Plunderer
 description: Fires EMP bullets at ground targets, and missiles at air targets.
 health: 10300
 speed: 0.35
 armor: 16
-legs: 6
-legSize: 32
-allowLegStep: true
 weapons: [
 {
 name: LaserCannon
