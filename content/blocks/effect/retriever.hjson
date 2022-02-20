@@ -1,0 +1,14 @@
+type: core
+name: Retriever
+description: The most advanced launch core. Features a rapidly moving core unit.
+details: WIP: currently gives only Dart
+unitCapModifier: 6
+health: 900
+unit: dart
+requirements: [
+copper/1500
+lead/1500
+endrium/40
+]
+category: effect
+research: core-foundation
