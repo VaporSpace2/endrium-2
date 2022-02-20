@@ -1,0 +1,15 @@
+type: wall
+name: Generator
+description: Special block that increases unit cap by 2 per generator.
+size: 2x2
+rebuildable: false
+health: 780
+floating: true
+unitCapModifier: 2
+buildCostMultiplier: 2.5
+requirements: [
+lead/1450
+silicon/1450
+endrium/250
+]
+category: effect
