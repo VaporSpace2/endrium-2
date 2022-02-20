@@ -1,6 +1,6 @@
 type: mech
 name: Plunderer
-description: Fires EMP bullets at ground targets, and missiles at air targets.
+description: Fires shock bullets and lasers at all nearby targets
 health: 10300
 speed: 0.35
 armor: 16
