@@ -1,7 +1,7 @@
 type: wall
 name: Generator
 description: Special block that increases unit cap by 2 per generator.
-size: 2x2
+size: 2
 rebuildable: false
 health: 780
 floating: true
