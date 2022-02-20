@@ -1,10 +1,8 @@
-type: legs
+type: mech
 name: Assailant
 description: Large and bulky unit with a railgun attached to it.
 health: 1080
-legCount: 4
-allowLegStep: true
-legSplashDamage: 15
+speed: 0.3
 itemCapacity: 55
 immunites: [
 burning
