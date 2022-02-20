@@ -19,12 +19,13 @@ mirror: false
 bullet: {
 shootEffect: instShoot
 hitEffect: instHit
-trailSpacing: 10
+trailSpacing: 20
 smokeEffect: smokeCloud
 trailEffect: instTrail
 despawnEffect: instBomb
 damage: 690
 speed: 80
+lifetime: 5
 lightning: 5
 lightningDamage: 18
 }
