@@ -1,5 +1,7 @@
 type: UnitFactory
 size: 3
+name: Assembler
+description: Creates mod units.
 consumes: {
   power: 2
 }
