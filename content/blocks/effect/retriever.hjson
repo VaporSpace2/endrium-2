@@ -1,4 +1,5 @@
-type: core
+type: coreBlock
+size: 2
 name: Retriever
 description: The most advanced launch core. Features a rapidly moving core unit.
 details: WIP: currently gives only Dart
