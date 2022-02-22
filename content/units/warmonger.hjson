@@ -81,7 +81,6 @@ despawnEffect: {
     damage: 8
     reloadMultiplier: 0.4
     transitionDamage: 10
-    affinities: blasted
     }
     }
     }
