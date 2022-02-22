@@ -74,6 +74,7 @@ despawnEffect: {
     pierce: true
     collidesAir: true
     status: {
+    name: atomic-warped
     damageMultiplier: 0.5
     healthMultiplier: 0.03
     speedMultiplier: 0.2
@@ -99,6 +100,7 @@ despawnEffect: {
     width: 22
     length: 540
     status: {
+    name: melted
     damage: 1
     healthMultiplier: 0.5
     speedMultiplier: 0.5
