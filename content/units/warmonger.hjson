@@ -1,0 +1,108 @@
+type: legs
+name: Warmonger
+description: Fires presistant beams of eradication, and a atomic collapse reactor.
+details: Used during the great wars as a cruel machine devoted to destroying entire bases.
+legs: 4
+legSize: 45
+legSplashDamage: 25
+speed: 0.2
+armor: 20
+health: 30000
+allowLegStep: true
+legSplashRange: 40
+weapons: [
+{
+name: AtomicCollapseReactor
+x: 0
+y: 0
+mirror: false
+alternate: false
+reload: 1200
+shootSound: explosion
+bullet: {
+type: BombBulletType
+splashDamage: 3750
+splashDamageRadius: 400
+despawnEffect: {
+      type: MultiEffect
+      effects: [
+        {
+          type: WaveEffect
+          lifetime: 15
+          sizeFrom: 0
+          sizeTo: 180
+          colorFrom: 000000
+          colorTo: 000000
+          strokeFrom: 6
+          strokeTo: 0
+        }
+        {
+          type: ParticleEffect
+          line: true
+          particles: 20
+          lifetime: 30
+          length: 240
+          strokeFrom: 16
+          strokeTo: 0
+          lenFrom: 18
+          lenTo: 0
+          colorFrom: 800080
+          colorTo: 600060
+        }
+        {
+          type: ParticleEffect
+          particles: 30
+          length: 360
+          lifetime: 40
+          sizeFrom: 8
+          sizeTo: 0
+          colorFrom: 700070
+          colorTo: 900090
+        }
+        {
+          type: ParticleEffect
+          particles: 30
+          length: 240
+          lifetime: 40
+          sizeFrom: 16
+          sizeTo: 0
+          colorFrom: 000000
+          colorTo: 000000
+        }
+      ]
+    }
+    pierce: true
+    collidesAir: true
+    status: {
+    damageMultiplier: 0.5
+    healthMultiplier: 0.03
+    speedMultiplier: 0.2
+    damage: 8
+    reloadMultiplier: 0.4
+    transitionDamage: 10
+    affinities: blasted
+    }
+    }
+    }
+    {
+    name: eradicator
+    x: 18
+    y: 0
+    reload: 240
+    mirror: true
+    alternate: true
+    bullet: {
+    type: ContinuousLaserBulletType
+    fadeTime: 120
+    damage: 25
+    colors: 800080 700070 600060 500050
+    width: 22
+    length: 540
+    status: {
+    damage: 1
+    healthMultiplier: 0.5
+    speedMultiplier: 0.5
+    }
+    }
+    }
+    ]
