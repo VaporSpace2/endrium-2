@@ -98,12 +98,6 @@ despawnEffect: {
     colors: 800080 700070 600060 500050
     width: 22
     length: 540
-    status: {
-    name: melted
-    damage: 1
-    healthMultiplier: 0.5
-    speedMultiplier: 0.5
-    }
     }
     }
     ]
