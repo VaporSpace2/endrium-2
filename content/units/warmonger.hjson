@@ -95,7 +95,6 @@ despawnEffect: {
     type: ContinuousLaserBulletType
     fadeTime: 120
     damage: 25
-    colors: 800080 700070 600060 500050
     width: 22
     length: 540
     }
