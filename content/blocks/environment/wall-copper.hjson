@@ -1,0 +1,4 @@
+type: WallOreBlock
+name: Copper
+itemDrop: copper
+oreDefault: true
