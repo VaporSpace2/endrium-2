@@ -1,0 +1,4 @@
+type: WallOreBlock
+name: Wall Titanium
+itemDrop: titanium
+size: 1
