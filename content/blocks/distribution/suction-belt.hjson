@@ -1,0 +1,12 @@
+type: conveyor
+name: Suction Belt
+description: A new style of transporting items on a hover rail. Very fast
+size: 1
+speed: 3
+itemCapacity: 3
+requirements: [
+copper/3
+lead/3
+chrome/1
+]
+research: titanium-conveyor
