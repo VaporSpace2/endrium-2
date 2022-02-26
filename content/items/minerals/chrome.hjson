@@ -1,6 +1,6 @@
 type: material
 name: Chrome
-description: Very shiny material, used in transportation structures and factories.
+description: Very shiny material, used in mid-tier buildings.
 hardness: 3
 cost: 2
 color: FFFFFF
