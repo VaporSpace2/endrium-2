@@ -23,6 +23,6 @@ lead/30
 ]
 research: {
 parent: ground-factory
-objectives: [theCraters]
+objectives: [craters]
 }
 category: units
