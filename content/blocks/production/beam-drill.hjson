@@ -3,6 +3,7 @@ name: Beam Drill
 description: Uses a laser to mine wall ores at a slow rate.
 range: 5
 tier: 3
+size: 2
 drillTime: 180
 consumes: {
 power: 0.85
