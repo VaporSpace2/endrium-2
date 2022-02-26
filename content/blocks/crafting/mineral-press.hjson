@@ -1,6 +1,7 @@
-type: GenericCrafter
+type: AttributeCrafter
 name: Mineral Press
-description: Processes tetratite from thorium, titanium, and graphite.
+description: Processes tetratite from thorium, titanium, and graphite. Can optionally be placed on hotter tiles for increased production speed. Needs coolant.
+details: One machine thought it was a good idea to crush thorium, titanium, and graphite on molten rock. The others said the idea was useless and retarded.
 size: 3
 consumes: {
 power: 5.60
@@ -17,6 +18,8 @@ amount: 0.3
 }
 }
 research: alloy-smelter
+attribute: heat
+maxBoost: 1.5
 outputItem: tetratite/2
 requirements: [
 lead/375
@@ -27,3 +30,4 @@ phase-fabric/270
 surge-alloy/250
 ]
 category: crafting
+research: alloy-smelter

@@ -31,4 +31,7 @@ pierceCap: 12
 }
 }
 ]
-research: invader
+research: {
+parent: invader
+objectives: [reconstructor1]
+}

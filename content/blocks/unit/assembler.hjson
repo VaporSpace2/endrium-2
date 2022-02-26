@@ -1,12 +1,14 @@
 type: UnitFactory
 size: 3
+name: Assembler
+description: Creates mod units.
 consumes: {
   power: 2
 }
 plans: [
   {
     unit: invader
-    time: 1080
+    time: 1200
     requirements: [
       silicon/30
       lead/25
@@ -19,5 +21,8 @@ silicon/100
 titanium/80
 lead/30
 ]
-research: ground-factory
+research: {
+parent: ground-factory
+objectives: [craters]
+}
 category: units

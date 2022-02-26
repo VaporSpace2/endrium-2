@@ -1,0 +1,19 @@
+type: accelerator
+name: Terminal Pad
+description: Fires a small expedition core to other planets. Cheap and easy to use.
+size: 4
+details: During the Great Wars, these where used very commonly to quickly capture other planets. Now that the schematic has been recovered, this can be freely used. Much cheaper than the interplanetary accelerator.
+launching: retriever
+buildVisibility: campaignOnly
+category: effect
+requirements: [
+copper/9000
+lead/9000
+silicon/6700
+graphite/6700
+plastanium/5800
+tetratite/7500
+endrium/2500
+surge-alloy/4000
+]
+research: interplanetary-accelerator
