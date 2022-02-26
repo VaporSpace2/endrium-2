@@ -1,0 +1,22 @@
+type: itemTurret
+name: Trash
+description: A cheap and shitty turret. Fires scrap.
+health: 50
+reloadTime: 15
+shots: 3
+inaccuracy: 6
+ammoTypes: {
+scrap: {
+type: BasicBulletType
+damage: 7
+lifetime: 60
+speed: 1.5
+}
+}
+range: 120
+requirements: [
+copper/10
+scrap/1
+]
+category: turret
+research: duo

@@ -24,6 +24,7 @@ outputItem: tetratite/2
 requirements: [
 lead/375
 silicon/450
+chrome/200
 titanium/350
 plastanium/280
 phase-fabric/270

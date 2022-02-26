@@ -1,0 +1,4 @@
+type: WallOreBlock
+name: Thorium
+itemDrop: thorium
+oreDefault: true
