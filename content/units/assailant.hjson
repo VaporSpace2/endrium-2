@@ -31,5 +31,5 @@ lightningDamage: 18
 ]
 research: {
 parent: raider
-objectives: reconstructor2
+objectives: [reconstructor2]
 }
