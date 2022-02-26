@@ -3,4 +3,5 @@ name: Chrome
 description: Very shiny material, used in transportation structures and factories.
 hardness: 3
 cost: 2
+color: FFFFFF
 research: titanium
