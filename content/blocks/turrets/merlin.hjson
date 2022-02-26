@@ -1,5 +1,5 @@
 type: "ItemTurret"
-name: "merlin"
+name: "Sniper"
 description: "high damage and range but low fire rate"
 targetAir: true
 targetGround: true
