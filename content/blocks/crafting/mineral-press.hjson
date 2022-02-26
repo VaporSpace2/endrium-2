@@ -18,9 +18,7 @@ amount: 0.3
 }
 }
 research: alloy-smelter
-attribute: [
-hot-rock, magma-rock
-]
+attribute: heat
 maxBoost: 1.5
 outputItem: tetratite/2
 requirements: [
