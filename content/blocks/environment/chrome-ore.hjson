@@ -1,3 +1,4 @@
 type: oreBlock
 name: Chrome
 itemDrop: chrome
+oreDefault: true
