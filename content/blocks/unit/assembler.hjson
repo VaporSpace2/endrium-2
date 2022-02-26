@@ -8,7 +8,7 @@ consumes: {
 plans: [
   {
     unit: invader
-    time: 1080
+    time: 1200
     requirements: [
       silicon/30
       lead/25
@@ -21,5 +21,8 @@ silicon/100
 titanium/80
 lead/30
 ]
-research: ground-factory
+research: {
+parent: ground-factory
+objectives: [theCraters]
+}
 category: units
