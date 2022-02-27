@@ -1,0 +1,15 @@
+type: powerTurret
+name: Charge
+description: Laser turret that shoots lightning. Cheap to build and operate
+requirements: [
+lead/55
+]
+size: 1
+health: 170
+powerUse: 1
+shootType: {
+type: LightningBulletType
+damage: 13
+}
+category: turret
+research: merlin
