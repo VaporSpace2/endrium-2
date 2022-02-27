@@ -1,0 +1,10 @@
+type: flying
+name: auxiliary
+description: Cheap unit with no cost, but low tier mining equipment.
+flying: true
+speed: 0.5
+alwaysUnlocked: true
+mineTier: 1
+mineSpeed: 1
+itemCapacity: 15
+controller: miningAi
