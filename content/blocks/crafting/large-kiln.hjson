@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: AttributeCrafter
 name: Large Kiln
 description: Larger version of the Kiln. Produces larger batches than the kiln.
 size: 3
@@ -12,6 +12,10 @@ lead/2
 ]
 }
 }
+drawer: {
+type: DrawSmelter
+color: ffef99
+}
 outputItem: metaglass/3
 requirements: [
 lead/120
@@ -21,3 +25,4 @@ titanium/70
 ]
 category: crafting
 research: kiln
+attribute: heat
