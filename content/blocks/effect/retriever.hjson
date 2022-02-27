@@ -6,6 +6,7 @@ details: WIP: currently gives only Dart
 unitCapModifier: 6
 health: 900
 unit: dart
+itemCapacity: 540
 requirements: [
 copper/1500
 lead/1500
