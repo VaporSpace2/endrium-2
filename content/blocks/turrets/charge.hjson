@@ -6,10 +6,11 @@ lead/55
 ]
 size: 1
 health: 170
+reloadTime: 50
 powerUse: 1
 shootType: {
 type: LightningBulletType
-damage: 13
+damage: 19
 }
 category: turret
 research: merlin
