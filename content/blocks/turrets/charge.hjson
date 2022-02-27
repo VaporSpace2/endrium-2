@@ -11,6 +11,7 @@ powerUse: 1
 shootType: {
 type: LightningBulletType
 damage: 19
+shootSound: spark
 }
 category: turret
 research: merlin
