@@ -1,0 +1,18 @@
+type: unitFactory
+name: Factory
+description: Creates the earliest and weakest units of them all.
+consumes: {
+power: 1.2
+}
+plans: [
+{
+unit: auxiliary
+time: 300
+}
+]
+requirements: [
+copper/35
+lead/35
+]
+category: units
+research: combustion-generator
