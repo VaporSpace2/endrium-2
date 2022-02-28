@@ -1,14 +1,13 @@
 type: GenericSmelter
 name: Arc Furnace
 description: Produces silicon directly from coal and scrap. Produces in larger batches than the normal smelter.
-details: One other machine used the remains of his anscestors and smelted them with coal to create silicon. This idea was acknowleged by his allies, and they began recycling their useless buildings.
 size: 2
 consumes: {
 power: 2.5
 items: {
 items: [
-scrap/3
-coal/3
+sand/3
+graphite/3
 ]
 }
 }
@@ -18,6 +17,7 @@ lead/55
 graphite/45
 metaglass/20
 ]
+craftTime: 60
 category: crafting
 research: {
 parent: silicon-smelter
