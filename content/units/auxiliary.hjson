@@ -1,6 +1,7 @@
 type: flying
 name: auxiliary
 description: Cheap unit with no cost, but low tier mining equipment.
+health: 25
 flying: true
 speed: 0.5
 alwaysUnlocked: true
