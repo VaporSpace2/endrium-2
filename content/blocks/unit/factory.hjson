@@ -8,6 +8,8 @@ plans: [
 {
 unit: auxiliary
 time: 300
+requirements: [
+]
 }
 ]
 requirements: [
