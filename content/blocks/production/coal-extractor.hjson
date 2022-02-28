@@ -3,6 +3,7 @@ name: Graphite Extractor
 description: Drills for graphite in the ground. Uses power and water.
 outputItem: graphite/2
 craftTime: 300
+size: 1
 consumes: {
 power: 1.5
 {
