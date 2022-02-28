@@ -1,0 +1,21 @@
+type: GenericCrafter
+name: Graphite Extractor
+description: Drills for graphite in the ground. Uses power and water.
+outputItem: graphite/2
+craftTime: 300
+consumes: {
+power: 1.5
+{
+liquid: {
+liquid: water
+amount: 1
+}
+}
+}
+requirements: [
+lead/50
+silicon/30
+graphite/30
+]
+category: production
+research: pneumatic-drill
