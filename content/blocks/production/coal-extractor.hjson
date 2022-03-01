@@ -6,7 +6,7 @@ craftTime: 300
 size: 1
 consumes: {
 power: 1.5
-{
+}
 liquid: {
 liquid: water
 amount: 1
