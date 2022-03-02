@@ -1,7 +1,7 @@
 type: GenericSmelter
 name: Forgery
 description: Forges the strongest alloy in existance using nearly every item and intense amounts of cryofluid.
-size: 5
+size: 6
 itemCapacity: 70
 consumes: {
 power: 56
