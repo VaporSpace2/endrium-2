@@ -2,7 +2,7 @@ type: battery
 name: Chrome Battery
 description: Stores power. Stores more than a normal battery would.
 consumes: {
-powerBuffered: 120
+powerBuffered: 6750
 }
 size: 1
 health: 160
