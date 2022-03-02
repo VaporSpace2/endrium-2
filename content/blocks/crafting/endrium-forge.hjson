@@ -50,6 +50,5 @@ endrium/1000
 category: crafting
 research: {
 parent: endrium-smelter
-objectives: [terminal]
 }
 //this gave me a massive headache
