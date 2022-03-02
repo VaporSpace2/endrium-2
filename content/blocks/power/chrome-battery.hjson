@@ -1,0 +1,15 @@
+type: battery
+name: Chrome Battery
+description: Stores power. Stores more than a normal battery would.
+consumes: {
+powerBuffered: 120
+}
+size: 1
+health: 160
+requirements: [
+lead/25
+chrome/25
+silicon/25
+]
+category: power
+research: battery
