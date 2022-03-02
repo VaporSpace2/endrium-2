@@ -12,13 +12,13 @@ plans: [
     requirements: [
       silicon/30
       lead/25
-      titanium/20
+      chrome/20
     ]
   }
 ]
 requirements:[
 silicon/100
-titanium/80
+chrome/80
 lead/30
 ]
 research: {
