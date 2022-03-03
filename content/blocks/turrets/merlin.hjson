@@ -1,5 +1,5 @@
 type: "ItemTurret"
-name: "Merlin"
+name: "Sniper"
 description: Fires high-damage rounds at a slow rate. Can target air.
 targetAir: true
 targetGround: true
