@@ -5,8 +5,8 @@
   health: 400
   size: 2
   recoilAmount: 5
-  reloadTime: 60.0
-  range: 200
+  reloadTime: 70.0
+  range: 190
   chargeMaxDelay: 30
 shootSound: laser
   shootType: {
@@ -15,10 +15,14 @@ shootSound: laser
     despawnEffect: none
     hitSize: 14
     lifetime: 30
-    colors: ec745855, ec7458aa, ff9c5aff, ffffffff
+    colors: [
+    ec745855 
+    ff9c5aff 
+    ffffffff
+    ]
     drawSize: 500
     collidesAir: false
-    damage: 170
+    damage: 250
   }
   targetAir: false
   powerUse: 7.0
