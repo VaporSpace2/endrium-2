@@ -51,6 +51,7 @@ graphite: {
 	homingPower: 1.5
 	reloadMultiplier: 1.5
 }
+}
 requirements: [
 	lead/25
 	copper/35
