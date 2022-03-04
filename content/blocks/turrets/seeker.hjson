@@ -39,5 +39,7 @@ plastanium/60
   ]
   coolantMultiplier: 1.0
   category: turret
-  research: lancer
+  research: {
+  parent: lancer
+  objectives: [windsweptIslands]
 }
