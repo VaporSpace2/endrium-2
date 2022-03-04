@@ -1,6 +1,7 @@
 name: Stone Valley
 description: A small grotto off to the side. Not much here, but there are wall ores.
 captureWave: 15
+sector: 13
 difficulty: 2
 research: {
 parent: [groundZero]
