@@ -42,4 +42,5 @@ plastanium/60
   research: {
   parent: lancer
   objectives: [windsweptIslands]
+  }
 }
