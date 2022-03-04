@@ -1,0 +1,17 @@
+name: Stone Valley
+description: A small grotto off to the side. Not much here, but there are wall ores.
+captureWave: 15
+difficulty: 2
+research: {
+parent: [groundZero]
+objectives: {
+{
+research: graphite-press
+}
+{
+research: pneumatic-drill
+{
+research: merlin
+}
+}
+//Trying some V5 logic.
