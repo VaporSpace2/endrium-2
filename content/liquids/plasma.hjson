@@ -1,0 +1,5 @@
+type: liquid
+name: Plasma
+temperature: 2
+color: ffffffff
+description: Liquid generated when slag is heated beyond its heat capacity. Incinerates most objects it touches.
