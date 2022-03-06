@@ -23,6 +23,6 @@ phase-fabric/170
 category: turret
 research: {
 parent: segment
-objectives: [Overgrowth]
+objectives: [overgrowth]
 }
 //Homing bullet turret.
