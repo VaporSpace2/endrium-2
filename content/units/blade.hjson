@@ -3,6 +3,7 @@ name: Blade
 description: Rams into enemy structures and units.
 buildSpeed: 0.5
 itemCapacity: 20
+flying: true
 health: 170
 armor: 2
 speed: 3.4
@@ -13,7 +14,7 @@ weapons: [
     x: 0
     y: 0
     reload: 60
-    recoil: 3
+    recoil: -60
     alternate: false
     mirror: false
     bullet: {
