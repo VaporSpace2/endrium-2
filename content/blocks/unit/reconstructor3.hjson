@@ -1,0 +1,22 @@
+type: reconstructor
+name: Reconstructor III
+description: Produces tier four mod units.
+size: 7
+details: Common infantry during the Great Wars.
+upgrades: [
+[
+assailant
+plunderer
+]
+]
+requirements: [
+lead/3500
+titanium/4000
+silicon/6500
+thorium/3400
+plastanium/1700
+phase-fabric/1000
+surge-alloy/500
+]
+category: units
+research: reconstructor2

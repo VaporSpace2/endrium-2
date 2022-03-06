@@ -1,0 +1,11 @@
+type: wall
+name: Tetratite Wall
+description: A very stiff wall.
+size: 1
+health: 2500
+requirements: [
+silicon/6
+tetratite/6
+]
+category: defense
+research: thorium-wall
