@@ -8,13 +8,11 @@ range: 240
 inaccuracy: 5
 health: 800
 shootType: {
-{
 type: HunterBulletType
 damage: 15
 lifetime: 60
 speed: 3
 status: burning
-}
 }
 requirements: [
 lead/750
