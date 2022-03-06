@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Arc Furnace
+description: Produces silicon directly from coal and scrap. Produces in larger batches than the normal smelter.
+size: 2
+consumes: {
+power: 2.5
+items: {
+items: [
+sand/3
+graphite/3
+]
+}
+}
+outputItem: silicon/5
+requirements: [
+lead/55
+graphite/45
+metaglass/20
+]
+craftTime: 60
+category: crafting
+research: {
+parent: silicon-smelter
+objectives: [craters]
+}
+//One of the other-world blocks. There will be a modded map that will not appear in campaign, but it bans all vanilla blocks and it's meant to be a demonstration of survival in space.

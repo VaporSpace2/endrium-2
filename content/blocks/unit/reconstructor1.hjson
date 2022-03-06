@@ -1,0 +1,29 @@
+type: reconstructor
+name: Reconstructor I
+description: Constructs the second tier of mod units. 
+size: 3
+consumes: {
+power: 2.3
+items: {
+items: [
+titanium/50
+lead/50
+silicon/50
+graphite/50
+]
+}
+}
+upgrades: [
+[
+invader
+raider
+]
+]
+requirements: [
+lead/170
+silicon/230
+graphite/300
+titanium/150
+]
+category: units
+research: assembler

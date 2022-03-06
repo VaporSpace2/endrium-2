@@ -1,0 +1,21 @@
+type: MendProjector
+name: Industrial Projector
+description: Large Projector that heals rapidly. Large range.
+consumes: {
+power: 3.85
+}
+size: 3
+reload: 120
+range: 320
+healPercent: 67
+requirements: [
+copper/65
+lead/55
+silicon/55
+chrome/50
+titanium/70
+plastanium/35
+endrium/25
+]
+Research: mend-projector
+category: effect

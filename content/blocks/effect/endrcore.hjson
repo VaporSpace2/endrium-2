@@ -1,0 +1,21 @@
+type: coreBlock
+name: Endrium Core
+description: A extremely tough core, built mainly of endrium. High storage and unit cap.
+unitType: quad
+health: 7000
+size: 5
+itemCapacity: 21000
+unitCapModifier: 40
+thrusterLength: 6
+category: effect
+requirements: [
+lead/10000
+silicon/9500
+plastanium/9000
+thorium/9000
+phase-fabric/8700
+surge-alloy/8600
+tetratite/9500
+endrium/10750
+]
+research: core-nucleus

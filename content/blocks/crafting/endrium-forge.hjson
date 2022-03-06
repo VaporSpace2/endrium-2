@@ -1,0 +1,54 @@
+type: GenericSmelter
+name: Forgery
+description: Forges the strongest alloy in existance using nearly every item and intense amounts of cryofluid.
+size: 6
+itemCapacity: 70
+consumes: {
+power: 56
+items: {
+items: [
+tetratite/30
+spore-pod/30
+phase-fabric/30
+surge-alloy/30
+plastanium/30
+endrium/30
+thorium/30
+titanium/30
+silicon/30
+chrome/30
+metaglass/30
+lead/30
+copper/30
+scrap/30
+sand/30
+coal/30
+blast-compound/30
+pyratite/30
+]
+}
+liquid: {
+liquid: cryofluid
+amount: 1
+}
+}
+outputItem: forged-endrium/3
+outputLiquid: slag/10
+requirements: [
+copper/2500
+lead/2500
+metaglass/2500
+titanium/1750
+plastanium/1750
+thorium/1500
+phase-fabric/1500
+surge-alloy/1500
+chrome/3000
+tetratite/1250
+endrium/1000
+]
+category: crafting
+research: {
+parent: endrium-smelter
+}
+//this gave me a massive headache

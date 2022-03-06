@@ -1,0 +1,35 @@
+type: mech
+name: Assailant
+description: Large and bulky unit with a railgun attached to it.
+health: 1080
+speed: 0.3
+itemCapacity: 55
+immunites: [
+burning
+]
+weapons: [
+{
+name: assassin-railgun
+reload: 330
+x: 0
+y: 0
+mirror: false
+bullet: {
+shootEffect: instShoot
+hitEffect: instHit
+trailSpacing: 20
+smokeEffect: smokeCloud
+trailEffect: instTrail
+despawnEffect: instBomb
+damage: 690
+speed: 80
+lifetime: 5
+lightning: 5
+lightningDamage: 18
+}
+}
+]
+research: {
+parent: raider
+objectives: [reconstructor2]
+}

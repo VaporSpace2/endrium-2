@@ -1,30 +1,29 @@
 type: "ItemTurret"
-name: "merlin"
-description: "high damage and range but low fire rate"
+name: "Sniper"
+description: Fires high-damage rounds at a slow rate. Can target air.
 targetAir: true
 targetGround: true
 size: 1
 inaccuracy: 1
-reloadTime: 45
+reloadTime: 48
 shootCone: 9
 rotateSpeed: 8
 shots: 1
 range: 140
 burstSpacing: 0
 ammoTypes: {
-	lead: {
-		speed: 4
-		damage: 15
+	copper: {
+		speed: 3
+		damage: 13
 		width: 5
 		height: 15
 		shootEffect: "shootSmall"
 		smokeEffect: "shootSmallSmoke"
-		ammoMultiplier: 1
+		ammoMultiplier: 2
 	}
-	copper: {
+	lead: {
 		speed: 3
-		damage: 13
-		
+		damage: 16
 		width: 5
 		height: 15
 		shootEffect: "shootSmall"
@@ -32,17 +31,29 @@ ammoTypes: {
 		ammoMultiplier: 2
 	}
 graphite: {
-		speed: 7
+		speed: 5
 		damage: 26
 		width: 7
 		height: 20
+		reloadMultiplier: 0.8
 		shootEffect: "shootSmall"
 		smokeEffect: "shootSmallSmoke"
-		ammoMultiplier: 1
+		ammoMultiplier: 4
 	}
+	silicon: {
+	speed: 5
+	damage: 13
+	width: 5
+	height: 15
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	homingRange: 16
+	homingPower: 1.5
+	reloadMultiplier: 1.5
+}
 }
 requirements: [
-	lead/15
+	lead/25
 	copper/35
 ]
 category: "turret"

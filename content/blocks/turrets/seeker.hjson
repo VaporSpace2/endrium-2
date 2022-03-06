@@ -5,19 +5,24 @@
   health: 400
   size: 2
   recoilAmount: 5
-  reloadTime: 60.0
-  range: 200
+  reloadTime: 70.0
+  range: 190
   chargeMaxDelay: 30
-shootSound: lasa
+shootSound: laser
   shootType: {
     type: LaserBulletType
     hitEffect: hitLancer
     despawnEffect: none
     hitSize: 14
     lifetime: 30
+    colors: [
+    ec745855 
+    ff9c5aff 
+    ffffffff
+    ]
     drawSize: 500
     collidesAir: false
-    damage: 230
+    damage: 250
   }
   targetAir: false
   powerUse: 7.0
@@ -29,10 +34,13 @@ shootSound: lasa
    lead/60
    graphite/60
 metaglass/60
-silicon/100
+silicon/70
 plastanium/60
   ]
   coolantMultiplier: 1.0
   category: turret
-  research: lancer
+  research: {
+  parent: lancer
+  objectives: [windsweptIslands]
+  }
 }

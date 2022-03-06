@@ -1,0 +1,46 @@
+type: mech
+name: Plunderer
+description: Fires shock bullets and lasers at all nearby targets
+health: 10300
+speed: 0.35
+armor: 16
+weapons: [
+{
+name: LaserCannon
+inaccuracy: 3
+reload: 6
+mirror: true
+x: 1
+y: -1
+shots: 2
+controllable: false
+autoTarget: true
+alternate: false
+bullet: {
+type: LaserBoltBulletType
+damage: 9
+lifetime: 120
+speed: 3
+collidesTerrain: true
+shootSound: laser
+}
+}
+{
+name: GiantCannon
+inaccuracy: 7
+reload: 26
+mirror: true
+x: 15
+y: 0
+alternate: true
+shots: 3
+bullet: {
+type: BasicBulletType
+lifetime: 135
+speed: 3
+damage: 45
+lightning: 12
+lightningDamage: 6
+}
+}
+]
