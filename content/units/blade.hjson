@@ -1,10 +1,12 @@
 type: flying
 name: Blade
 description: Rams into enemy structures and units.
+buildSpeed: 0.5
+itemCapacity: 20
 health: 170
 armor: 2
 speed: 3.4
-weapons: {
+weapons: [
 {
 name: breaker
 mirror: false
@@ -18,5 +20,5 @@ pierceDamageFactor: 1
 damage: 40
 }
 }
-}
+]
 research: assembler
