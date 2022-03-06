@@ -8,17 +8,17 @@ armor: 2
 speed: 3.4
 weapons: [
 {
-name: breaker
-mirror: false
-x: 0
-y: 0
-reload: 40
-recoil: 
-bullet: {
-type: RailBulletType
-pierceDamageFactor: 1
-damage: 40
-}
-}
+   name: breaker
+   mirror: false
+   x: 0
+   y: 0
+   reload: 40
+   recoil: 
+   bullet: {
+   type: RailBulletType
+   pierceDamageFactor: 1
+   damage: 40
+  }
+ }
 ]
 research: assembler
