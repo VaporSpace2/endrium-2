@@ -7,18 +7,20 @@ health: 170
 armor: 2
 speed: 3.4
 weapons: [
-{
-   name: breaker
-   mirror: false
-   x: 0
-   y: 0
-   reload: 40
-   recoil: 
-   bullet: {
-   type: RailBulletType
-   pierceDamageFactor: 1
-   damage: 40
+  {
+    name: breaker
+    top: false
+    x: 0
+    y: 0
+    reload: 60
+    recoil: 3
+    alternate: false
+    mirror: false
+    bullet: {
+      type: RailBulletType
+      damage: 60
+      pierceDamageFactor: 1
+    }
   }
- }
 ]
 research: assembler
