@@ -1,0 +1,26 @@
+type: flying
+name: Blade
+description: Rams into enemy structures and units.
+health: 170
+armor: 2
+speed: 3.4
+abilities: {
+{
+type: MoveLightningAbility
+
+weapons: {
+{
+name: breaker
+mirror: false
+x: 0
+y: 0
+reload: 40
+recoil: 
+bullet: {
+type: RailBulletType
+pierceDamageFactor: 1
+damage: 40
+}
+}
+}
+research: assembler
