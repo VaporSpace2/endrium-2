@@ -4,10 +4,6 @@ description: Rams into enemy structures and units.
 health: 170
 armor: 2
 speed: 3.4
-abilities: {
-{
-type: MoveLightningAbility
-
 weapons: {
 {
 name: breaker
