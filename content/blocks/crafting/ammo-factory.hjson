@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Ammunition Factory
+description: Produces heavy rounds from lead and obsidian.
+size: 2
+consumes: {
+power: 3.5
+items: {
+items: [
+lead/3
+obsidian/1
+]
+}
+}
+outputItem: standard-bullet/2
+craftTime: 90
+requirements: [
+lead/70
+titanium/60
+silicon/60
+graphite/60
+]
+category: crafting
+research: silicon-smelter
+//One of the key blocks in the mod for v2.1
