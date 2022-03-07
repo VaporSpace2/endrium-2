@@ -2,7 +2,7 @@ type: itemTurret
 name: Trash
 description: A cheap and shitty turret. Fires scrap.
 health: 50
-reloadTime: 15
+reloadTime: 30
 shots: 3
 inaccuracy: 6
 ammoTypes: {
@@ -19,4 +19,4 @@ copper/10
 scrap/1
 ]
 category: turret
-research: duo
+research: merlin
