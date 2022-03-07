@@ -3,8 +3,9 @@ name: Halibrad
 description: Defends the Endrium core from enemies. Rapidly builds structures.
 details: Did not originate from Serpulo. Origins unknown.
 armor: 2
+flying: true
 health: 540
-speed: 4
+speed: 4.5
 buildSpeed: 4
 itemCapacity: 120
 mineSpeed: 10
