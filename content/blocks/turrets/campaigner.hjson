@@ -13,7 +13,6 @@ damage: 5
 lifetime: 420
 continuous: true
 status: melting
-keepVelocity: true
 }
 requirements: [
 lead/750
