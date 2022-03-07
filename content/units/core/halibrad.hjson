@@ -9,16 +9,16 @@ buildSpeed: 4
 itemCapacity: 120
 mineSpeed: 10
 mineTier: 4
-abilities: {
+abilities: [
 {
 type: ForceFieldAbility
 max: 240
 radius: 40
 regen: 0.01
 cooldown: 360
+}
+]
 canHeal: true
-}
-}
 immunities: [
 burning, wet, tarred, spore-slowed, freezing, blasted, shocked
 ]
