@@ -45,8 +45,6 @@ alternate: false
 reload: 30
 bullet: {
 type: LaserBoltBulletType
-backColor: green
-frontColor: white
 damage: 0
 healPrecent: 0.8
 lifetime: 40
