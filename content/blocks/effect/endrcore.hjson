@@ -1,15 +1,15 @@
 type: coreBlock
 name: Endrium Core
 description: A extremely tough core, built mainly of endrium. High storage and unit cap.
-unitType: quad
-health: 7000
+unitType: halibrad
+health: 9000
 size: 5
-itemCapacity: 21000
-unitCapModifier: 40
+itemCapacity: 22000
+unitCapModifier: 46
 thrusterLength: 6
 category: effect
 requirements: [
-lead/10000
+lead/12000
 silicon/9500
 plastanium/9000
 thorium/9000
