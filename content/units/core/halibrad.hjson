@@ -51,4 +51,6 @@ damage: 0
 healPrecent: 0.8
 lifetime: 40
 speed: 4
+}
+}
 ]
