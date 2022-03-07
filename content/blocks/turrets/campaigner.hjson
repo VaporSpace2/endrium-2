@@ -10,9 +10,10 @@ powerUse: 10
 shootType: {
 type: ContinuousLaserBulletType
 damage: 5
-lifetime: 240
+lifetime: 420
 continuous: true
 status: melting
+keepVelocity: true
 }
 requirements: [
 lead/750
