@@ -4,13 +4,15 @@ description: Fires a continous laser beam at all nearby enemies.
 size: 3
 health: 1650
 range: 190
+shootSound: beam
 reloadTime: 300
 powerUse: 10
 shootType: {
 type: ContinuousLaserBulletType
 damage: 5
 lifetime: 240
-shootSound: beam
+continuous: true
+status: melting
 }
 requirements: [
 lead/750
