@@ -16,11 +16,12 @@ y: 0
 mirror: false
 bullet: {
 type: LaserBulletType
-length: 170
+length: 230
+continuous: true
 width: 50
 damage: 690
-speed: 80
-lifetime: 40
+speed: 0
+lifetime: 20
 lightning: 5
 lightningDamage: 18
 }
