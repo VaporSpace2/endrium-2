@@ -1,8 +1,9 @@
 type: flying
 name: Halibrad
-description: Defends the Endrium core from enemies. Rapidly builds structures.
-details: Did not originate from Serpulo. Origins unknown.
+description: Defends the Endrium core from enemies. Rapidly builds structures. Uses extreme magnets to carry blocks and units.
+details: Did not originate from Serpulo. Origins unknown. Strangely immune to all negative effects.
 armor: 2
+payloadCapacity: 58
 flying: true
 health: 540
 speed: 4.5
@@ -21,7 +22,7 @@ cooldown: 360
 ]
 canHeal: true
 immunities: [
-burning, wet, tarred, spore-slowed, freezing, blasted, shocked
+burning, wet, tarred, spore-slowed, freezing, blasted, shocked, melting, electrified
 ]
 weapons: [
 {
@@ -33,7 +34,8 @@ alternate: true
 reload: 45
 bullet: {
 type: SapBulletType
-damage: 55
+damage: 40
+buildingDamageMultiplier: 0.1
 sapStrength: 2
 }
 }
@@ -47,7 +49,7 @@ reload: 30
 bullet: {
 type: LaserBoltBulletType
 damage: 0
-healPrecent: 0.8
+healPrecent: 1
 lifetime: 40
 speed: 4
 }
