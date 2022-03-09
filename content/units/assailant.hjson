@@ -1,8 +1,8 @@
 type: mech
 name: Assailant
-description: Large and bulky unit with a railgun attached to it.
-health: 1080
-speed: 0.3
+description: Fires a massive laser blast at enemy targets.
+health: 1200
+speed: 0.4
 itemCapacity: 55
 immunites: [
 burning
@@ -15,15 +15,13 @@ x: 0
 y: 0
 mirror: false
 bullet: {
-shootEffect: instShoot
-hitEffect: instHit
-trailSpacing: 20
-smokeEffect: smokeCloud
-trailEffect: instTrail
-despawnEffect: instBomb
+type: LaserBulletType
+length: 230
+continuous: true
+width: 50
 damage: 690
-speed: 80
-lifetime: 5
+speed: 0
+lifetime: 20
 lightning: 5
 lightningDamage: 18
 }

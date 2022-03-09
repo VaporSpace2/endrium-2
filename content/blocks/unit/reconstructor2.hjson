@@ -2,6 +2,7 @@ type: reconstructor
 name: Reconstructor II
 description: Constructs the third tier of mod units. 
 size: 5
+constructTime: 1800
 consumes: {
 power: 2.6
 items: {

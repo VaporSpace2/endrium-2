@@ -18,8 +18,8 @@ reload: 40
 mirror: true
 top: true
 rotate: false 
-x: 10
-y: 8
+x: 5
+y: 0
 Recoil: 9
 shootSound: shotgun
 bullet: {
