@@ -4,15 +4,15 @@ description: Fires presistant laser weapons at ground targets. Has a energy fiel
 details: Used during the great wars as a cruel machine devoted to destroying entire bases.
 speed: 0.23
 canDrown: false
-abilities: {
-[
+abilities: [
+{
 type: EnergyFieldAbility
 damage: 70
 range: 120
 maxTargets: 120
 useAmmo: false
-]
 }
+]
 immunities: [
 wet, tarred, melting, burning, freezing, electrified, blasted, shocked, spore-slowed
 ]
