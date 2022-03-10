@@ -10,8 +10,9 @@ coolant: {
 amount: 0.80
 }
 }
-reloadTime: 300
+reloadTime: 1000
 powerUse: 10
+shootDuration: 420
 firingMoveFract: 0.4
 shootType: {
 type: ContinuousLaserBulletType
