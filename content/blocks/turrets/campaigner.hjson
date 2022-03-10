@@ -5,6 +5,12 @@ size: 3
 health: 1650
 range: 190
 shootSound: beam
+consumes: {
+liquids: {
+liquid: water
+amount: 2.3
+}
+}
 reloadTime: 300
 powerUse: 10
 firingMoveFract: 0.4
