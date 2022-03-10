@@ -10,7 +10,7 @@ powerUse: 10
 firingMoveFract: 0.4
 shootType: {
 type: ContinuousLaserBulletType
-damage: 5
+damage: 27
 lifetime: 420
 continuous: true
 status: melting
