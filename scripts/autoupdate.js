@@ -1,5 +1,5 @@
 const autoUpdate = (name, repo, branch) => {
-    
+    //Found from Pixelcraft.
     var modLocal = Vars.mods.locateMod(name).meta;
     
     Events.on(ClientLoadEvent, () => {
