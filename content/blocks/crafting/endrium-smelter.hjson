@@ -4,14 +4,14 @@ description: Smelter for Endrium. Uses large amounts of power.
 size: 4
 itemCapacity: 70
 consumes: {
-power: 56
+power: 30
 items: {
 items: [
-tetratite/53
-spore-pod/35
-phase-fabric/55
-surge-alloy/33
-plastanium/45
+tetratite/20
+surge-alloy/10
+spore-pod/15
+phase-fabric/20
+thorium/30
 ]
 }
 liquid: {

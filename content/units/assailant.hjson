@@ -3,6 +3,7 @@ name: Assailant
 description: Fires a massive laser blast at enemy targets.
 health: 1200
 speed: 0.4
+clipSize: 20
 itemCapacity: 55
 immunites: [
 burning
@@ -16,10 +17,10 @@ y: 0
 mirror: false
 bullet: {
 type: LaserBulletType
-length: 230
+length: 760
 continuous: true
 width: 50
-damage: 690
+damage: 350
 speed: 0
 lifetime: 20
 lightning: 5

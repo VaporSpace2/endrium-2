@@ -5,12 +5,19 @@ size: 3
 health: 1650
 range: 190
 shootSound: beam
-reloadTime: 300
+consumes: {
+coolant: {
+amount: 0.80
+}
+}
+reloadTime: 1000
 powerUse: 10
+shootDuration: 420
+chargeTime: 240
 firingMoveFract: 0.4
 shootType: {
 type: ContinuousLaserBulletType
-damage: 5
+damage: 27
 lifetime: 420
 continuous: true
 status: melting

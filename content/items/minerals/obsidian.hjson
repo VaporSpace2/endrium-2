@@ -1,7 +1,0 @@
-type: material
-name: Obsidian
-description: Basically just stone. Can be used as direct ammunition or pressed with lead to create ammo.
-details: The beginning of war evolution
-hardness: 2
-cost: 1
-research: copper
