@@ -6,6 +6,7 @@ itemCapacity: 70
 consumes: {
 power: 30
 items: {
+items: [
 tetratite/20
 surge-alloy/10
 spore-pod/15
