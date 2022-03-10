@@ -6,9 +6,8 @@ health: 1650
 range: 190
 shootSound: beam
 consumes: {
-liquids: {
-liquid: water
-amount: 2.3
+coolant: {
+amount: 0.80
 }
 }
 reloadTime: 300
