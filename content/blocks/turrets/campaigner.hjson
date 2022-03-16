@@ -1,0 +1,33 @@
+type: powerTurret
+name: Campaigner
+description: Fires a continous laser beam at all nearby enemies.
+size: 3
+health: 1650
+range: 190
+shootSound: beam
+consumes: {
+coolant: {
+amount: 0.80
+}
+}
+reloadTime: 1000
+powerUse: 10
+shootDuration: 420
+chargeTime: 240
+firingMoveFract: 0.4
+shootType: {
+type: ContinuousLaserBulletType
+damage: 27
+lifetime: 420
+continuous: true
+status: melting
+}
+requirements: [
+lead/750
+silicon/1000
+graphite/650
+thorium/350
+plastanium/200
+]
+category: turret
+research: seeker

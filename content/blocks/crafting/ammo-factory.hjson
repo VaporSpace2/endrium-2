@@ -1,13 +1,13 @@
 type: GenericCrafter
 name: Ammunition Factory
-description: Produces heavy rounds from lead and obsidian.
+description: Produces heavy rounds from lead and silicon.
 size: 2
 consumes: {
 power: 3.5
 items: {
 items: [
 lead/3
-obsidian/1
+silicon/2
 ]
 }
 }

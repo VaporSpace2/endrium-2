@@ -16,7 +16,7 @@ weapons: [
   {
     name: LaserCannon
     top: false
-    x: 2
+    x: 3
     y: 0
     reload: 60
     recoil: 3
@@ -27,20 +27,18 @@ weapons: [
     shake: 0.8
     bullet: {
       type: LaserBulletType
-      damage: 45
+      damage: 30
       collidesTeam: true
       healPercent: 4
       recoil: 0.5
       length: 160
-      colors: [84f59140, 84f591, ffffff]
-      lightColor: 84f591
     }
   }
 ]
 abilities: [
   {
     type: RepairFieldAbility
-    amount: 5
+    amount: 10
     reload: 60
     range: 48
   }

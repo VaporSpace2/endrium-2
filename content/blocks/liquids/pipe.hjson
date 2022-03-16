@@ -1,0 +1,13 @@
+type: Conduit
+name: Pipe
+description: Vacuum conduit designed to transport liquids in space. Very bad for storage.
+size: 1
+health: 70
+liquidCapacity: 5
+liquidPressure: 120
+leaks: true
+requirements: [
+graphite/2
+metaglass/2
+]
+category: liquid
