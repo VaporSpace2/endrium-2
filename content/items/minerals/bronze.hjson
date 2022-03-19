@@ -1,0 +1,6 @@
+type: material
+name: Bronze
+description: Refined copper. Stronger than copper and is useful for heavy ammunition.
+hardness: 2
+cost: 1
+research: copper
