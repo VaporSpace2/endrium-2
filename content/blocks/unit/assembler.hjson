@@ -1,4 +1,4 @@
-type: UnitFactory
+/*type: UnitFactory
 size: 3
 name: Assembler
 description: Creates mod units.
@@ -34,4 +34,4 @@ research: {
 parent: ground-factory
 objectives: [craters]
 }
-category: units
+category: units */
