@@ -1,7 +1,7 @@
 {
   type: PowerTurret
   name: "Seeker"
-  description: "fires beams of energy dealing high damage"
+  description: "shoots high powered laser beams."
   health: 400
   size: 2
   recoilAmount: 5
@@ -40,7 +40,7 @@ plastanium/60
   coolantMultiplier: 1.0
   category: turret
   research: {
-  parent: charge
+  parent: lancer
   objectives: [windsweptIslands]
   }
 }
