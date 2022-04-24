@@ -12,10 +12,7 @@ titanium/4
 graphite/7
 ]
 }
-liquid: {
-liquid: water
-amount: 0.3
-}
+//put liquid: { liquid: water amount: 0.3 }
 }
 research: alloy-smelter
 attribute: heat
