@@ -1,4 +1,0 @@
-type: WallOreBlock
-name: Lead
-itemDrop: lead
-oreDefault: true
