@@ -1,4 +1,0 @@
-type: WallOreBlock
-name: Chrome
-itemDrop: chrome
-oreDefault: true
