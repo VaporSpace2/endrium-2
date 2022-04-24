@@ -1,5 +1,0 @@
-type: resource
-name: Standard Bullet
-description: Standard Bullet used in turrets as a heavy ammo.
-cost: 0
-hardness: 3
