@@ -1,4 +1,0 @@
-type: WallOreBlock
-name: Coal
-itemDrop: coal
-oreDefault: true
