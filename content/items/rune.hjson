@@ -3,7 +3,7 @@ name: Rune
 description: material used in applications such as advanced menders and walls
 cost: 10
 radioactivity: 3
-color: 07ff56
+color: 81cc72
 research: spore-pod
 hardness: 35
 details: almost lifelike material, works well with self healing structures, seems to glow green for odd reasons.
