@@ -4,7 +4,7 @@ name: endrium smelter
 hasPower: true
 hasItems: true
 itemCapacity: 30
-liquidCapacity: 24
+liquidCapacity: 60
 craftEffect: {
   type: ParticleEffect
   lifetime: 35
