@@ -20,7 +20,7 @@ consumes: {
     silvus/3
     ]
   }
-  liquids:{
+  liquid:{
      liquid:[
      cryo-fluid/12
      ]
