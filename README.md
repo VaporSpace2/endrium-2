@@ -1,3 +1,13 @@
 # endrium 2
-The endrium mod hopefully brings stuff for all stages of the game.
-New mod developer (actually knows how to do stuff around here)
+Endrium mod 2 is a vanilla extension mod, aiming to add QOL features 
+Including new advanced factories for materials such as met glass and pyratite.
+
+
+Adds:
+
++3 items
+
++1 factory block
+
+
+CURRENTLY UNDERGOING A REVAMP; MIGHT FORGET TO REMOVE THIS.
