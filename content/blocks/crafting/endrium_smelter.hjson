@@ -21,7 +21,7 @@ consumes: {
     ]
   }
   liquids:{
-     liquids:[
+     liquid:[
      cryo-fluid/12
      ]
    }
