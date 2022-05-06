@@ -20,10 +20,10 @@ consumes: {
     silvus/3
     ]
   }
-  liquid:{
-     liquid:[
+ 
+     liquid:{
      cryo-fluid/12
-     ]
+    }
    }
 }
 craftTime: 120
