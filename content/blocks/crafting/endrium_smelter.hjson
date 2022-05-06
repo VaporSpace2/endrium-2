@@ -9,7 +9,7 @@ craftEffect: {
   type: ParticleEffect
   lifetime: 35
   length: 8
-  colorTo: 7382f0
+  colorTo: dc2aef
 }
 flameColor: dc2aef
 consumes: {
