@@ -19,7 +19,7 @@ consumes: {
     thorium/5
     silvus/3
     ]
-  }
+ 
  
      liquid:{
      cryo-fluid/12
