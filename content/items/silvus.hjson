@@ -1,0 +1,8 @@
+type: material
+name: Silvus
+description: a sturdy material with extreme tempurature sustainability
+cost: 10
+radioactivity: 3
+color: e1e9f0
+hardness: 4
+details: not too common on the surface of serpulo, although its worth mining due to its ability to handle extreme tempuratures
