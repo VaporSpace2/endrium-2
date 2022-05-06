@@ -21,7 +21,8 @@ consumes: {
     ]
   }
   liquid: {
-    liquid: cryofluid/12
+    liquid: cryofluid
+    amount:0.5
     
   }
 }
