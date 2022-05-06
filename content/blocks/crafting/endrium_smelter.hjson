@@ -1,0 +1,40 @@
+type: GenericSmelter
+size: 3
+name: endrium smelter
+hasPower: true
+hasItems: true
+itemCapacity: 30
+liquidCapacity: 24
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 35
+  length: 8
+  colorTo: 7382f0
+}
+flameColor: dc2aef
+consumes: {
+  power: 1.25
+  items: {
+    items: [
+    thorium/5
+    silvus/3
+    ]
+  }
+  liquids:{
+     liquids:[
+     cryo-fluid/12
+     ]
+   }
+}
+craftTime: 120
+outputItem: endrium/1
+category: crafting
+research: alloy-smelter
+requirements: [
+  copper/120
+  lead/175
+  silicon/120
+  thorium/100
+  surge-alloy/125
+  silvus/205
+]
