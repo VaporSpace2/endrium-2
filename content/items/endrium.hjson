@@ -1,9 +1,9 @@
 type: material
 name: endrium
 description: advanced material used in walls and heat protection
-cost: 10
+cost: 50
 radioactivity: 3
 color: c093fa
-research: spore-pod
+research: surge-alloy
 hardness: 35
 details: extremely durable, even more so than surge alloy and has extreme heat protection qaulities, could be used in planetary cores
