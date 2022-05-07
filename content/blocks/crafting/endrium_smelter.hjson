@@ -1,6 +1,7 @@
 type: GenericSmelter
 size: 3
 name: endrium smelter
+description: smelts materials into endrium with extreme heat
 hasPower: true
 hasItems: true
 itemCapacity: 30
