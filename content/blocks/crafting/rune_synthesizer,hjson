@@ -1,0 +1,37 @@
+
+type: GenericCrafter
+size: 2
+name: rune synthesizer
+description: synthesizes rune for use in self healing structures
+hasPower: true
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 20
+drawer: drawRotator
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      titanium/3
+      lead/2
+      spore-pod/6
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount:0.12
+    
+  }
+}
+craftTime: 120
+outputItem: rune/2
+category: crafting
+research: spore-press
+requirements: [
+  copper/80
+  lead/75
+  titanium/50
+  silicon/30
+ 
+ 
+]
