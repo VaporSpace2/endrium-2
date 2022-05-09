@@ -7,7 +7,7 @@ Adds:
 
 +3 items
 
-+1 factory block
++2 factory blocks
 
 
 CURRENTLY UNDERGOING A REVAMP; MIGHT FORGET TO REMOVE THIS.
