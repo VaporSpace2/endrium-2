@@ -1,15 +1,15 @@
 type: ItemTurret
 name: merlin
-description: slow firing sniper turret
+description: fires long range single target shots
 targetAir: true
 targetGround: true
-size: 1
+size: 2
 inaccuracy: 1
 reloadTime: 48
 shootCone: 9
 rotateSpeed: 8
 shots: 1
-range: 140
+range: 160
 burstSpacing: 0
 ammoTypes: {
 	copper: {
@@ -53,8 +53,8 @@ graphite: {
 }
 }
 requirements: [
-	lead/25
-	copper/35
+	lead/50
+	copper/150
 ]
 category: "turret"
 research: "duo"
