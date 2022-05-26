@@ -3,7 +3,7 @@
   name: "Seeker"
   description: "fires a long range blast of plasma at enemies"
   health: 400
-  size: 2
+  size: 3
   recoilAmount: 5
   reloadTime: 180
   range: 250
