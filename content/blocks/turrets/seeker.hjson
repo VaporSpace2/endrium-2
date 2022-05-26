@@ -15,6 +15,7 @@ shootSound: laser
     despawnEffect: none
     hitSize: 14
     lifetime: 30
+    length: 260
     colors: [
     ec745855 
     ff9c5aff 
