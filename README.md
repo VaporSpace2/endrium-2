@@ -16,5 +16,7 @@ Adds:
 
 +2 factory blocks
 
++2 turrets
+
 
 CURRENTLY UNDERGOING A REVAMP; MIGHT FORGET TO REMOVE THIS.
