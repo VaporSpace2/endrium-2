@@ -1,12 +1,12 @@
 {
   type: PowerTurret
   name: "Seeker"
-  description: "shoots high powered laser beams."
+  description: "fires a long range blast of plasma at enemies"
   health: 400
   size: 2
   recoilAmount: 5
-  reloadTime: 70.0
-  range: 190
+  reloadTime: 180
+  range: 250
   chargeMaxDelay: 30
 shootSound: laser
   shootType: {
@@ -22,7 +22,7 @@ shootSound: laser
     ]
     drawSize: 500
     collidesAir: false
-    damage: 250
+    damage: 300
   }
   targetAir: false
   powerUse: 7.0
@@ -30,12 +30,11 @@ shootSound: laser
   rotateSpeed: 5
   chargeEffects: 50.0
   requirements: [
-   copper/80
+   
    lead/60
-   graphite/60
-metaglass/60
-silicon/70
-plastanium/60
+metaglass/50
+silicon/60
+plastanium/120
   ]
   coolantMultiplier: 1.0
   category: turret
