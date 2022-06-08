@@ -15,7 +15,7 @@ ammoTypes: {
 	copper: {
 		speed: 3
 		damage: 23
-                lifetime: 180
+                lifetime: 120
 		width: 5
 		height: 15
 		shootEffect: "shootSmall"
@@ -25,7 +25,7 @@ ammoTypes: {
 	lead: {
 		speed: 3
 		damage: 26
-                lifetime: 60
+                lifetime: 120
 		width: 5
 		height: 15
 		shootEffect: "shootSmall"
@@ -33,9 +33,9 @@ ammoTypes: {
 		ammoMultiplier: 2
 	}
 graphite: {
-		speed: 5
+		speed: 3
 		damage: 40
-                lifetime: 60
+                lifetime: 120
 		width: 7
 		height: 20
 		reloadMultiplier: 0.8
@@ -44,9 +44,9 @@ graphite: {
 		ammoMultiplier: 4
 	}
 	silicon: {
-	speed: 5
+	speed: 3
 	damage: 20
-        lifetime: 60
+        lifetime: 120
 	width: 5
 	height: 15
 	shootEffect: shootSmall
@@ -57,8 +57,8 @@ graphite: {
 }
 }
 requirements: [
-	lead/75
 	copper/150
+	lead/75
 ]
 category: "turret"
 research: "duo"
