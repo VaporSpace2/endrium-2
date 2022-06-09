@@ -2,8 +2,8 @@ type: ConsumeGenerator
 name: Oil Generator
 description: Burns oil to generate power.
 size: 2
-filterLiquid: {
-liquids: {
+consumes: {
+liquid: {
 liquid: oil
 amount: 5
 }
