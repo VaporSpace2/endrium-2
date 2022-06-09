@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Silvus Extractor
+description: Extracts Silvus from the ground, using water and power.
+drawer: {
+type: DrawRotator
+}
+size: 2
+consumes: {
+power: 3
+liquid: {
+liquid: water
+amount: 0.10
+}
+}
+outputItem: silvus/1
+craftTime: 420
+requirements: [
+lead/200
+graphite/150
+silicon/150
+titanium/120
+plastanium/100
+]
+category: production
+research: laser-drill
