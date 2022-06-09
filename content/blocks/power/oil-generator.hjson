@@ -1,5 +1,19 @@
-/* type: ConsumeGenerator
+type: ConsumeGenerator
 name: Oil Generator
 description: Burns oil to generate power.
-too lazy to finish rn
-*/
+size: 2
+consumes: {
+liquids: {
+liquid: oil
+amount: 5
+}
+}
+powerProduction: 4
+requirements: [
+lead/60
+graphite/50
+silicon/50
+metaglass/45
+titanium/40
+]
+category: power
