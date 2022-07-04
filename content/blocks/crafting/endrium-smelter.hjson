@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 size: 3
 name: Endrium Smelter
 description: Smelts materials into endrium with extreme heat
@@ -6,6 +6,7 @@ hasPower: true
 hasItems: true
 itemCapacity: 30
 liquidCapacity: 60
+drawer: DrawSmelter
 craftEffect: {
   type: ParticleEffect
   lifetime: 35
