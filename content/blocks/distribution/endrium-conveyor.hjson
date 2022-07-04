@@ -1,6 +1,6 @@
 type: StackConveyor
 name: Endrium Conveyor
-description: The ultimate conveyor. Transports items at the speed of a titanium conveyor, and in stacks of 15.
+description: The ultimate conveyor. Transports items faster than a titanium conveyor, and in stacks of 15.
 itemCapacity: 15
 speed: 0.15
 requirements: [
