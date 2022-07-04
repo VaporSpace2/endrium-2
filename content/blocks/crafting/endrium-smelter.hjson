@@ -6,7 +6,11 @@ hasPower: true
 hasItems: true
 itemCapacity: 30
 liquidCapacity: 60
-drawer: DrawCircles
+drawer: {
+drawRegion: {
+region: top
+}
+}
 craftEffect: {
   type: ParticleEffect
   lifetime: 35
