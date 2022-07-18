@@ -1,2 +1,3 @@
-type: ore
+type: oreBlock
 name: Silvus
+itemDrop: silvus
