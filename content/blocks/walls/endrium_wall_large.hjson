@@ -1,0 +1,12 @@
+type: Wall
+size: 2
+health: 5000
+name: "big endrium wall"
+description: "very strong wall used to block incoming bullets"
+category: defense
+requirements: [
+  endrium/24
+]
+research: {
+  parent: endrium
+  }
