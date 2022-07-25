@@ -1,7 +1,7 @@
 type: material
 name: Silvus
 description: a sturdy material with extreme tempurature sustainability
-cost: 30
+cost: 12
 radioactivity: 0
 color: ffffff
 hardness: 5
