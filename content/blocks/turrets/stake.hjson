@@ -1,6 +1,6 @@
 type: ItemTurret
-name: merlin
-description: fires long range single target shots
+name: Stake
+description: fires long range single target stakes
 targetAir: true
 targetGround: true
 size: 2
