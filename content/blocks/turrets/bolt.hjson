@@ -1,7 +1,7 @@
 {
   type: PowerTurret
-  name: "Seeker"
-  description: "fires a long range blast of plasma at enemies"
+  name: "Bolt"
+  description: "fires a long range blast of highly heated plasma"
   health: 400
   size: 3
   recoilAmount: 5
