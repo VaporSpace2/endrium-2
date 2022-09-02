@@ -22,8 +22,8 @@ shootSound: laser
     ffffffff
     ]
     drawSize: 500
-    collidesAir: false
-    damage: 300
+    collidesAir: true
+    damage: 450
   }
   targetAir: false
   powerUse: 7.0
