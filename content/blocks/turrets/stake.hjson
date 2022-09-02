@@ -15,7 +15,7 @@ ammoTypes: {
 	copper: {
 		speed: 3
 		damage: 13
-                lifetime: 60
+                lifetime: 40
 		width: 5
 		height: 15
 		shootEffect: "shootSmall"
@@ -25,7 +25,7 @@ ammoTypes: {
 	lead: {
 		speed: 3
 		damage: 16
-                lifetime: 60
+                lifetime: 40
 		width: 5
 		height: 15
 		shootEffect: "shootSmall"
@@ -35,7 +35,7 @@ ammoTypes: {
 graphite: {
 		speed: 5
 		damage: 18
-                lifetime: 60
+                lifetime: 40
 		width: 7
 		height: 20
 		reloadMultiplier: 0.8
@@ -46,7 +46,7 @@ graphite: {
 	silicon: {
 	speed: 5
 	damage: 13
-        lifetime: 60
+        lifetime: 40
 	width: 5
 	height: 15
 	shootEffect: shootSmall
