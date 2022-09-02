@@ -13,7 +13,7 @@ range: 160
 burstSpacing: 0
 ammoTypes: {
 	copper: {
-		speed: 3
+		speed: 5
 		damage: 13
                 lifetime: 40
 		width: 5
@@ -23,7 +23,7 @@ ammoTypes: {
 		ammoMultiplier: 2
 	}
 	lead: {
-		speed: 3
+		speed: 5
 		damage: 16
                 lifetime: 40
 		width: 5
