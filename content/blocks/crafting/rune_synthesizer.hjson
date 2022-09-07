@@ -7,7 +7,10 @@ hasPower: true
 hasItems: true
 itemCapacity: 20
 liquidCapacity: 20
-drawer: drawRotator
+drawer: {
+  type: DrawMulti
+  drawers: [DrawBlock, DrawRotator, DrawLiquid]
+}
 consumes: {
   power: 1.5
   items: {
