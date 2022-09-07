@@ -9,7 +9,7 @@ itemCapacity: 20
 liquidCapacity: 20
 drawer: {
   type: DrawMulti
-  drawers: [DrawBlock, DrawRotator, DrawLiquid]
+  drawers: [DrawBlock, DrawRotator, DrawLiquidTile]
 }
 consumes: {
   power: 1.5
