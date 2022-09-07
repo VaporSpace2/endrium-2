@@ -25,7 +25,7 @@ shootSound: laser
     collidesAir: true
     damage: 450
   }
-  targetAir: false
+  targetAir: true
   powerUse: 7.0
   inaccuracy: 0.0
   rotateSpeed: 5
