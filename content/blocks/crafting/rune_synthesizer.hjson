@@ -12,6 +12,8 @@ drawer: {
   type: DrawMulti
   drawers: [
     {
+    type: DrawRegion
+    {
       type: DrawRegion
       suffix: -rotator
       rotateSpeed: 12
@@ -21,10 +23,6 @@ drawer: {
     type: DrawLiquidRegion
     drawLiquid: water
   }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
   ]
 }
 consumes: {
