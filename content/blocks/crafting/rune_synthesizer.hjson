@@ -13,7 +13,8 @@ drawer: {
   drawers: [
     {
     type: DrawRegion
-    {
+    }
+     {
       type: DrawRegion
       suffix: -rotator
       rotateSpeed: 12
