@@ -5,6 +5,7 @@ name: rune synthesizer
 description: synthesizes rune for use in self healing structures
 hasPower: true
 hasItems: true
+hadLiquids: true
 itemCapacity: 20
 liquidCapacity: 20
 drawer: {
