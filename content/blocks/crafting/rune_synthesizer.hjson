@@ -9,7 +9,22 @@ itemCapacity: 20
 liquidCapacity: 20
 drawer: {
   type: DrawMulti
-  drawers: [DrawBlock, DrawRotator, DrawLiquidTile]
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -rotator
+      rotateSpeed: 12
+      spinSprite: true
+    }
+     {
+    type: DrawLiquidRegion
+    drawLiquid: water
+  }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
 }
 consumes: {
   power: 1.5
