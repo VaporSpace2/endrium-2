@@ -15,15 +15,16 @@ drawer: {
     type: DrawRegion
     }
      {
+    type: DrawLiquidRegion
+    drawLiquid: water
+  }
+     {
       type: DrawRegion
       suffix: -rotator
       rotateSpeed: 12
       spinSprite: true
     }
-     {
-    type: DrawLiquidRegion
-    drawLiquid: water
-  }
+    
   ]
 }
 consumes: {
