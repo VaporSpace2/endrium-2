@@ -1,41 +1,49 @@
-type: GenericSmelter
-size: 3
-name: endrium smelter
-description: smelts materials into endrium with extreme heat
-hasPower: true
-hasItems: true
-itemCapacity: 30
-liquidCapacity: 60
-craftEffect: {
-  type: ParticleEffect
-  lifetime: 35
-  length: 8
-  colorTo: dc2aef
+type: GenericCrafter
+craftTime: 60
+name: Endrium smelter
+description: smelts thorium and silvus into an extremely heat resistant and strong material
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawArcSmelt
+      flameRad: 1.5
+      midColor: ded0c1
+      flameColor: dea568
+      circleSpace: 1
+      circleStroke: 0.5
+      particleLife: 7
+      particleRad: 9
+      particleStroke: 0.75
+      particleLen: 3
+      alpha: 0.8
+    }
+  ]
 }
-flameColor: dc2aef
 consumes: {
-  power: 5.5
-  items: {
-    items: [
-      thorium/5
-      silvus/3
-    ]
-  }
-  liquid: {
-    liquid: cryofluid
-    amount:0.5
-    
-  }
+  power: 120
+    items: {
+      items:[
+        thorium/5
+        silvus/3
+      ]
+    }
+    liquid:{
+     liquid: cryofluid/15
 }
-craftTime: 650
-outputItem: endrium/1
+}
+outputItems: [
+  endrium/1
+]
 category: crafting
 research: alloy-smelter
-requirements: [
-  copper/120
-  lead/175
-  silicon/120
-  thorium/100
-  surge-alloy/125
-  silvus/205
+requirements:[
+copper/120
+lead/175
+silicon/120
+thorium/100
+silvus/200
 ]
