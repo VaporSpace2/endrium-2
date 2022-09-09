@@ -4,7 +4,7 @@ description: "fires a long range blast of highly heated plasma"
 size: 3
 range: 250
 rotateSpeed: 5
-hasLiquids
+hasLiquids: true
 reload: 60
 consumes: {
   power: 7
