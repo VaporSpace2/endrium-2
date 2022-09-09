@@ -63,7 +63,7 @@ requirements: [
 ]
 category: "turret"
 research: "duo"
-coolantMultiplier: 1.0
+coolantMultiplier: 1.2
 consumes: {
   coolant: {
     amount: 0.1
