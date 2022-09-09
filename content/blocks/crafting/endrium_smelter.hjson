@@ -36,7 +36,8 @@ consumes: {
       ]
     }
     liquid:{
-     liquid: cryofluid/15
+     liquid: cryofluid
+     amount: 15
 }
 }
 outputItems: [
