@@ -1,15 +1,16 @@
-{
-  type: PowerTurret
-  name: "Bolt"
-  description: "fires a long range blast of highly heated plasma"
-  health: 400
-  size: 3
-  recoilAmount: 5
-  reloadTime: 180
-  range: 250
-  chargeMaxDelay: 30
+type: PowerTurret
+name: "Bolt"
+description: "fires a long range blast of highly heated plasma"
+size: 3
+range: 250
+rotateSpeed: 5
+reload: 60
+consumes: {
+  power: 7
+} 
+recoil: 5
 shootSound: laser
-  shootType: {
+ shootType: {
     type: LaserBulletType
     hitEffect: hitLancer
     despawnEffect: none
@@ -25,22 +26,17 @@ shootSound: laser
     collidesAir: true
     damage: 450
   }
-  targetAir: true
-  powerUse: 7.0
-  inaccuracy: 0.0
-  rotateSpeed: 5
-  chargeEffects: 50.0
-  requirements: [
-   
+    targetAir: true
+      targetGround: true
+category: turret
+requirements: [
    lead/60
 metaglass/50
 silicon/60
 plastanium/120
-  ]
-  coolantMultiplier: 1.0
-  category: turret
-  research: {
+]
+ coolantMultiplier: 1.0
+   research: {
   parent: lancer
   objectives: [windsweptIslands]
   }
-}
