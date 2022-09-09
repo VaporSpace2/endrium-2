@@ -10,7 +10,7 @@ shootCone: 9
 rotateSpeed: 8
 shots: 1
 range: 160
-hasLiquids
+hasLiquids: true
 burstSpacing: 0
 ammoTypes: {
 	copper: {
