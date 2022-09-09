@@ -28,7 +28,7 @@ itemCapacity: 30
 liquidCapacity: 30
 craftTime: 480
 consumes: {
-  power: 35
+  power: 5.8
     items: {
       items:[
         thorium/5
