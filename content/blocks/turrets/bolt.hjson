@@ -43,6 +43,6 @@ plastanium/120
   }
   consumes: {
   coolant: {
-    amount: 0.12
+    amount: 0.35
   }
 }
