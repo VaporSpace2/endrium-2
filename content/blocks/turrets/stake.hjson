@@ -1,4 +1,4 @@
-0000000type: ItemTurret
+type: ItemTurret
 name: Stake
 description: fires long range single target stakes
 targetAir: true
