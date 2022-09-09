@@ -1,4 +1,6 @@
 type: GenericCrafter
+name: Endrium smelter
+description: melts thorium and silvus into an extremely heat resistant and strong material
 drawer: {
   type: DrawMulti
   drawers: [
@@ -21,11 +23,10 @@ drawer: {
     }
   ]
 }
+size: 3
+itemCapacity: 30
+liquidCapacity: 30
 craftTime: 60
-name: Endrium smelter
-description: smelts thorium and silvus into an extremely heat resistant and strong material
-hasLiquids
-hasPower
 consumes: {
   power: 120
     items: {
