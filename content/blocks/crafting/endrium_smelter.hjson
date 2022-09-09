@@ -16,7 +16,7 @@ drawer: {
       circleStroke: 1
       alpha: 1
       particleRad: 14
-      particles: 20
+      particles: 60
       particleLen: 5
       particleStroke: 1.5
       particleLife: 30
@@ -26,9 +26,9 @@ drawer: {
 size: 3
 itemCapacity: 30
 liquidCapacity: 30
-craftTime: 60
+craftTime: 480
 consumes: {
-  power: 120
+  power: 35
     items: {
       items:[
         thorium/5
@@ -37,7 +37,7 @@ consumes: {
     }
     liquid:{
      liquid: cryofluid
-     amount: 15
+     amount: 0.5
 }
 }
 outputItems: [
