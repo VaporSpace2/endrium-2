@@ -4,13 +4,13 @@ name: Endrium smelter
 description: smelts thorium and silvus into an extremely heat resistant and strong material
 hasLiquids
 hasPower
-
-drawer: {
+drawer:{
   type: DrawMulti
   drawers: [
     {
       type: DrawDefault
     }
+    
     {
       type: DrawArcSmelt
       flameRad: 1.5
