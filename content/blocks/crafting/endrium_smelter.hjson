@@ -9,17 +9,17 @@ drawer: {
     }
     {
       type: drawArcSmelt
-      flameColor: 353535
-      midColor: a7a7a7
-      flameRad: 7
-      circleSpace: 4
-      circleStroke: 2
+      flameColor: ff31f0
+      midColor: ff86f6
+      flameRad: 2
+      circleSpace: 2
+      circleStroke: 1
       alpha: 1
-      particleRad: 28
-      particles: 60
-      particleLen: 10
-      particleStroke: 2.5
-      particleLife: 60
+      particleRad: 14
+      particles: 20
+      particleLen: 5
+      particleStroke: 1.5
+      particleLife: 30
     }
   ]
 }
