@@ -1,4 +1,4 @@
-type: ItemTurret
+0000000type: ItemTurret
 name: Stake
 description: fires long range single target stakes
 targetAir: true
@@ -66,6 +66,6 @@ research: "duo"
 coolantMultiplier: 1.0
 consumes: {
   coolant: {
-    amount: 0.35
+    amount: 0.1
   }
 }
