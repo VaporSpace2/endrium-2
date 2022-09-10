@@ -10,4 +10,5 @@ requirements: [
   rune/24
 ]
 research: {
-  parent: 
+  parent: rune
+  }
