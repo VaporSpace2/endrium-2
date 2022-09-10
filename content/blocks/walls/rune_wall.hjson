@@ -10,6 +10,7 @@ requirements: [
   rune/6
 ]
 research: {
-   parent:
+   parent: rune
+   }
 
   
