@@ -1,10 +1,11 @@
 type: MendProjector
+range: 3
+healPercent: 0.05
 size: 1
 health: 625
 name: "Rune wall"
 description: "sturdy defensive wall that has self healing capabilities"
 category: defense
-healPercent: 0.6
 requirements: [
   rune/6
 ]
