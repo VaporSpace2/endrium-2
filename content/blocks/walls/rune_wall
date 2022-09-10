@@ -1,0 +1,13 @@
+type: Wall
+size: 1
+health: 1250
+name: "Rune wall"
+description: "sturdy defensive wall that has self healing capabilities"
+category: defense
+requirements: [
+  rune/6
+]
+research: {
+   parent:
+
+  
