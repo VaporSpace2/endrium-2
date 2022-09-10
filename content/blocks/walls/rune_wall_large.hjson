@@ -4,7 +4,7 @@ healPercent: 0.05
 size: 2
 health: 2500
 name: "Big Rune wall"
-description: "sturdy defensive wall with self healing capabilities 
+description: "sturdy defensive wall with self healing capabilities"
 category: defense
 requirements: [
   rune/24
