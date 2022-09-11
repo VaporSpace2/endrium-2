@@ -3,6 +3,7 @@ range: 3
 healPercent: 4.5
 phaseBoost: 0
 phaseRangeBoost: 0
+hasPower: false
 size: 1
 health: 625
 name: "Rune wall"
