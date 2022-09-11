@@ -1,6 +1,7 @@
 type: MendProjector
 range: 8
 healPercent: 4.5
+hasPower: false
 phaseBoost: 0
 phaseRangeBoost: 0
 size: 2
