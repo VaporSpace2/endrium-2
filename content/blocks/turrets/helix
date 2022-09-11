@@ -1,0 +1,74 @@
+type: itemTurret
+name: Helix
+description: A prototype based on Stake. Fires a two rounds at high speeds, in a helix, at the enemy over long distances.
+size: 3
+range: 320
+health: 1000
+shoot: {
+type: ShootHelix
+shots: 2
+}
+reload: 66
+ammoTypes: {
+graphite: {
+type: BasicBulletType
+width: 8
+height: 12
+speed: 5
+lifetime: 60
+damage: 70
+splashDamageRadius: 24
+splashDamage: 15
+}
+metaglass: {
+type: BasicBulletType
+width: 8
+height: 12
+speed: 5
+lifetime: 60
+damage: 60
+splashDamageRadius: 32
+splashDamage: 27
+fragBullets: 3
+fragBullet: {
+type: BasicBulletType
+speed: 1.5
+lifetime: 60
+damage: 8
+}
+}
+titanium: {
+type: BasicBulletType
+width: 8
+height: 12
+speed: 5
+lifetime: 60
+damage: 100
+ammoMultiplier: 4
+reloadMultiplier: 1.1
+pierce: true
+pierceCap: 3
+}
+silvus: {
+type: BasicBulletTYpe
+width: 8
+height: 12
+speed: 5
+ammoMultiplier: 4
+reloadMultiplier: 0.8
+damage: 145
+pierce: true
+pierceCap: 6
+lifetime: 60
+}
+}
+requirements: [
+copper/200
+graphite/120
+titanium/90
+metaglass/80
+thorium/55
+plastanium/50
+]
+category: turret
+research: stake
