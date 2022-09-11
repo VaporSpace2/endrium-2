@@ -1,6 +1,8 @@
 type: MendProjector
 range: 3
 healPercent: 0.05
+phaseBoost: 0
+phaseRangeBoost: 0
 size: 1
 health: 625
 name: "Rune wall"
