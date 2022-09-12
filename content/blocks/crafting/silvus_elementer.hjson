@@ -11,13 +11,13 @@ drawer: {
       type: drawArcSmelt
       flameColor: ff7000
       midColor: c96f27
-      flameRad: 2
-      circleSpace: 2
-      circleStroke: 2
-      alpha: 0.5
-      particleRad: 9
-      particles: 4
-      particleLen: 2
+      flameRad: 5
+      circleSpace: 5
+      circleStroke: 5
+      alpha: 1
+      particleRad: 14
+      particles: 120
+      particleLen: 7
       particleStroke: 1.5
       particleLife: 30
     }
