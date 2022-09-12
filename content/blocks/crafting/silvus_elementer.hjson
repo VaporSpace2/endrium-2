@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: silvus fusioner
+name: silvus fusion chamber
 description: "uses fusion to create silvus, uses immense amounts of power and little coolant"
 drawer: {
   type: DrawMulti
