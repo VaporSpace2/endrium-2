@@ -1,3 +1,4 @@
 type: floor
 name: Panel
 variants: 1
+itemDrop: compound
