@@ -7,7 +7,7 @@ rotateSpeed: 5
 hasLiquids: true
 reload: 60
 consumes: {
-  power: 7
+power: 7
 } 
 recoil: 5
 shootSound: laser
@@ -31,7 +31,7 @@ shootSound: laser
       targetGround: true
 category: turret
 requirements: [
-   lead/60
+lead/60
 metaglass/50
 silicon/60
 plastanium/120
