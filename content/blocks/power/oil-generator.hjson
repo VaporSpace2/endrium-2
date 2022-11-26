@@ -1,0 +1,19 @@
+type: ConsumeGenerator
+name: Oil Generator
+description: Produces large amounts of power from the burning of oil.
+size: 3
+consumes: {
+liquid: {
+liquid: oil
+amount: 0.5
+}
+}
+powerProduction: 13
+requirements: [
+lead/170
+graphite/120
+silicon/160
+metaglass/120
+titanium/80
+]
+category: power
