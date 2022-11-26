@@ -7,8 +7,8 @@ rotateSpeed: 5
 hasLiquids: true
 reload: 60
 consumes: {
-power: 7
-} 
+power: 1
+}
 recoil: 5
 shootSound: laser
  shootType: {
@@ -41,8 +41,3 @@ plastanium/120
   parent: lancer
   objectives: [windsweptIslands]
   }
-  consumes: {
-  coolant: {
-    amount: 0.1
-  }
-}
