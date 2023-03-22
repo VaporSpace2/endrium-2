@@ -15,7 +15,7 @@ drawer: {
       circleSpace: 0
       circleStroke: 3
       alpha: 1
-      particleRad: 14
+      particleRad: 5
       particles: 60
       particleLen: 7
       particleStroke: 1.5
