@@ -41,7 +41,8 @@ plastanium/120
   parent: lancer
   objectives: [windsweptIslands]
   }
-  consumes: {
+  coolantMultiplier: 2
+consumes: {
   coolant: {
     amount: 0.1
   }
