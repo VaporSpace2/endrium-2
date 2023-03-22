@@ -26,7 +26,7 @@ drawer: {
 size: 3
 itemCapacity: 30
 liquidCapacity: 30
-craftTime: 480
+craftTime: 240
 consumes: {
   power: 5.8
     items: {
