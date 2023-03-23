@@ -1,6 +1,10 @@
 type: GenericCrafter
 name: silvus fusion chamber
 description: "uses fusion to create silvus, uses immense amounts of power and little coolant"
+size: 4
+itemCapacity: 30
+liquidCapacity: 30
+craftTime: 60
 drawer: {
   type: DrawMulti
   drawers: [
@@ -10,6 +14,7 @@ drawer: {
     {
       type: DrawLiquidRegion
       drawLiquid: cryofluid
+      suffix: -liquid
     }
     {
       type: drawArcSmelt
@@ -31,10 +36,8 @@ drawer: {
     }
   ]
 }
-size: 4
-itemCapacity: 30
-liquidCapacity: 30
-craftTime: 60
+
+
 consumes: {
   power: 20
     items: {
