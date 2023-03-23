@@ -8,6 +8,11 @@ drawer: {
       type: DrawDefault
     }
     {
+      type: DrawLiquidRegion
+      drawLiquid: cryofluid
+      suffix: -liquid
+    }
+    {
       type: drawArcSmelt
       flameColor: ff7000
       midColor: c96f27
@@ -20,6 +25,10 @@ drawer: {
       particleLen: 7
       particleStroke: 1.5
       particleLife: 30
+    }
+    {
+      type: DrawRegion
+      suffix: -top
     }
   ]
 }
