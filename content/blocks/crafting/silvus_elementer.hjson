@@ -1,13 +1,12 @@
 type: GenericCrafter
 name: silvus fusion chamber
 description: "uses fusion to create silvus, uses immense amounts of power and little coolant"
-drawer: {
-  type: DrawMulti
+//drawer: {
+//  type: DrawMulti
   drawers: [
     {
       type: DrawDefault
     }
-    
     {
       type: drawArcSmelt
       flameColor: ff7000
@@ -22,21 +21,17 @@ drawer: {
       particleStroke: 1.5
       particleLife: 30
     }
-    
-      {
-    type: DrawLiquidRegion
-    drawLiquid: cryofluid
-    suffix: -liquid
-  }
-  
+    {
+      type: DrawLiquidRegion
+      drawLiquid: cryofluid
+      suffix: -liquid
+    }
     {
       type: DrawRegion
       suffix: -top
     }
-    
   ]
-}
-
+//}
 size: 4
 itemCapacity: 30
 liquidCapacity: 30
