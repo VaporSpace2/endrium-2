@@ -6,6 +6,7 @@ drawer: {
   drawers: [
     {
       type: DrawDefault
+      suffix: -base
     }
     {
       type: DrawLiquidRegion
