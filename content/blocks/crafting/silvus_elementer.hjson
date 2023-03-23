@@ -1,10 +1,15 @@
 type: GenericCrafter
-name: silvus fusion chamber
-description: "uses fusion to create silvus, uses immense amounts of power and little coolant"
+size: 3
+hasLiquids: true
+liquidCapacity: 30
+craftTime: 60
+craftEffect: heal
+updateEffect: hitLaser
+outputItem: silvus/3
 drawer: {
   type: DrawMulti
   drawers: [
-  {
+    {
       type: DrawDefault
     }
     {
@@ -19,9 +24,6 @@ drawer: {
   ]
 }
 size: 4
-itemCapacity: 30
-liquidCapacity: 30
-craftTime: 60
 consumes: {
   power: 20
     items: {
@@ -36,9 +38,6 @@ consumes: {
      amount: 0.25
 }
 }
-outputItems: [
-  silvus/3
-]
 category: crafting
 research: alloy-smelter
 requirements:[
