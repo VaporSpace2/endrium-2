@@ -29,7 +29,7 @@ drawer: {
       particles: 15
       particleLen: 7
       particleStroke: 1.5
-      particleLife: 
+      particleLife: 30
     }
       
     {
