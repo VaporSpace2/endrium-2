@@ -4,12 +4,6 @@ description: "uses fusion to create silvus, uses immense amounts of power and li
 drawer: {
   type: DrawMulti
   drawers: [
-    
-    {
-      type: DrawRegion
-      suffix: -top
-    }
-    
     {
       type: DrawDefault
     }
@@ -33,6 +27,12 @@ drawer: {
     type: DrawLiquidRegion
     drawLiquid: cryofluid
   }
+  
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    
   ]
 }
 
