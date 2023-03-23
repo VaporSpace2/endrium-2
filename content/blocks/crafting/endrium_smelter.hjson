@@ -8,18 +8,7 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: drawArcSmelt
-      flameColor: ff31f0
-      midColor: ff86f6
-      flameRad: 1
-      circleSpace: 0
-      circleStroke: 2
-      alpha: 1
-      particleRad: 3
-      particles: 15
-      particleLen: 7
-      particleStroke: 1.5
-      particleLife: 30
+      type: DrawCrucibleFlame
     }
   ]
 }
