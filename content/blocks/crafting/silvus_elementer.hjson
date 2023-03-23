@@ -4,22 +4,17 @@ description: "uses fusion to create silvus, uses immense amounts of power and li
 drawer: {
   type: DrawMulti
   drawers: [
-    {
+  {
       type: DrawDefault
     }
     {
-      type: drawArcSmelt
-      flameColor: ff7000
-      midColor: c96f27
-      flameRad: 3
-      circleSpace: 0
-      circleStroke: 3
-      alpha: 1
-      particleRad: 14
-      particles: 60
-      particleLen: 7
-      particleStroke: 1.5
-      particleLife: 30
+      type: DrawLiquidRegion
+      drawLiquid: cryofluid
+      suffix: -liquid
+    }
+    {
+      type: DrawRegion
+      suffix: -top
     }
   ]
 }
