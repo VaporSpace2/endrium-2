@@ -3,8 +3,6 @@ size: 3
 hasLiquids: true
 liquidCapacity: 30
 craftTime: 60
-craftEffect: heal
-updateEffect: hitLaser
 outputItem: silvus/3
 drawer: {
   type: DrawMulti
