@@ -26,6 +26,7 @@ drawer: {
       {
     type: DrawLiquidRegion
     drawLiquid: cryofluid
+    suffix: -liquid
   }
   
     {
