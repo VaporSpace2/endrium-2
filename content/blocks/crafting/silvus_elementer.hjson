@@ -9,7 +9,7 @@ drawer: {
     }
     {
       type: DrawLiquidRegion
-      drawLiquid: cryofluid
+      drawLiquid: water
     }
    
      {
