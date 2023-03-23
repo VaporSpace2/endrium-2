@@ -30,10 +30,7 @@ drawer: {
       particleStroke: 1.5
       particleLife: 30
     }
-     {
-      type: DrawRegion
-      suffix: -top
-    }
+     
   ]
 }
 
