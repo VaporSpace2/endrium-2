@@ -8,10 +8,7 @@ rotateSpeed: 5
 hasLiquids: true
 reload: 60
 recoil: 5
-shootSound: laser
-consumes: {
-  power: 7
-  } 
+shootSound: laser 
  shootType: {
     type: LaserBulletType
     hitEffect: hitLancer
@@ -20,6 +17,9 @@ consumes: {
     lifetime: 30
     length: 260
     status: melting
+    consumes: {
+  power: 7
+  }
     colors: [
     ec745855 
     ff9c5aff 
