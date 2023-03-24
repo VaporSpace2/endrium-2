@@ -8,8 +8,10 @@ rotateSpeed: 5
 hasLiquids: true
 reload: 60
 recoil: 5
-powerUse: 650
 shootSound: laser
+consumes: {
+  power: 1288
+  } 
  shootType: {
     type: LaserBulletType
     hitEffect: hitLancer
