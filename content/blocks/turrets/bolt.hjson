@@ -22,6 +22,9 @@ shootSound: laser
     lifetime: 30
     length: 260
     status: melting
+    consumes: {
+    power: 650
+    } 
     colors: [
     ec745855 
     ff9c5aff 
