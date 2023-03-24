@@ -10,7 +10,7 @@ reload: 60
 recoil: 5
 shootSound: laser
 consumes: {
-  power: 1288
+  power: 7
   } 
  shootType: {
     type: LaserBulletType
@@ -19,6 +19,7 @@ consumes: {
     hitSize: 14
     lifetime: 30
     length: 260
+    status: melting
     colors: [
     ec745855 
     ff9c5aff 
@@ -43,7 +44,7 @@ titanium/60
   parent: lancer
   objectives: [windsweptIslands]
   }
-  coolantMultiplier: 3
+  coolantMultiplier: 5
 consumes: {
   coolant: {
     amount: 0.1
