@@ -8,6 +8,7 @@ rotateSpeed: 5
 hasLiquids: true
 reload: 60
 recoil: 5
+powerUse: 650
 shootSound: laser
  shootType: {
     type: LaserBulletType
@@ -24,11 +25,6 @@ shootSound: laser
     drawSize: 500
     collidesAir: true
     damage: 450
-    consumes: 
-  {
-    power: 7
-  } 
-  
   }
     targetAir: true
       targetGround: true
