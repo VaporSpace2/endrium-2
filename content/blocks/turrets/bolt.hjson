@@ -7,6 +7,7 @@ range: 250
 recoil: 5
 rotateSpeed: 5
 reload: 60
+hasPower: true
 consumes: {
   power: 650
 } 
