@@ -24,13 +24,15 @@ shootSound: laser
     drawSize: 500
     collidesAir: true
     damage: 450
-  }
-    targetAir: true
-      targetGround: true
-  consumes: 
+    consumes: 
   {
     power: 7
   } 
+  
+  }
+    targetAir: true
+      targetGround: true
+  
 category: turret
 requirements: [
    lead/60
