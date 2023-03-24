@@ -4,15 +4,14 @@ description: "fires a long range blast of superheated plasma"
 details: "pinnacle of medium scale laser weaponry"
 size: 3
 range: 250
-rotateSpeed: 5
-hasLiquids: true
-reload: 60
 recoil: 5
+rotateSpeed: 5
+reload: 60
+consumes: {
+  power: 650
+} 
+hasLiquids: true
 hasPower: true
-consumes: 
-{
- power: 7
-}
 shootSound: laser 
  shootType: {
     type: LaserBulletType
