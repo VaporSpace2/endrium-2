@@ -46,6 +46,7 @@ graphite: {
 	homingRange: 16
 	homingPower: 1.5
 	reloadMultiplier: 1.5
+	ammoMultiplier: 4
 }
 }
 requirements: [
