@@ -3,6 +3,7 @@ type: GenericCrafter
 size: 2
 name: rune synthesizer
 description: synthesizes rune for use in self healing structures
+details: "complex internals, infects spore biomatter with small amounts of rune to multiply quickly, then mixes the rune in a low pressure chamber into chilled liquid titanium to make rune infused titanium"
 hasPower: true
 hasItems: true
 hasLiquids: true
