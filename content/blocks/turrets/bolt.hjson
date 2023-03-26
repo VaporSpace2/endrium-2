@@ -1,7 +1,7 @@
 type: PowerTurret
 name: "Bolt"
 description: "fires a long range blast of superheated plasma"
-details: "pinnacle of medium scale laser weaponry"
+details: "pinnacle of medium scale laser weaponry, complex internals occupied by mostly heat dissipating technology"
 size: 3
 range: 250
 recoil: 5
