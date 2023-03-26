@@ -1,6 +1,7 @@
 type: ItemTurret
 name: Stake
 description: fires long range single target stakes
+details: "simplistic internals, used primarily by the sharded due to its good defensive abilities and long range"
 targetAir: true
 targetGround: true
 size: 2
