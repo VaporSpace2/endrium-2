@@ -1,5 +1,7 @@
 type: GenericCrafter
 size: 3
+description: "fuses light atmoic nuclei into silvus"
+details: "extremely complex internals, uses nuclear fusion to combine lead, thorium and copper atoms into a heavier element-silvus"
 hasLiquids: true
 liquidCapacity: 30
 craftTime: 60
