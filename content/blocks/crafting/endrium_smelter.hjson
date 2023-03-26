@@ -1,6 +1,7 @@
 type: GenericCrafter
 name: Endrium smelter
 description: melts thorium and silvus into an extremely heat resistant and strong material
+details: "extremely complex internals, smelts differrent materials into endrium at 10000c, endrium is utilized by mostly by the sharded due to its extreme durability and heat resistance "
 drawer: {
   type: DrawMulti
   drawers: [
