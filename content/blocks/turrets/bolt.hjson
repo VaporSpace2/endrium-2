@@ -9,7 +9,10 @@ rotateSpeed: 5
 reload: 60
 hasPower: true
 consumes: {
-  power: 650
+power: 650
+coolant: {
+    amount: 0.1
+  }
 } 
 hasLiquids: true
 hasPower: true
@@ -50,8 +53,3 @@ titanium/60
   objectives: [windsweptIslands]
   }
   coolantMultiplier: 5
-consumes: {
-  coolant: {
-    amount: 0.1
-  }
-}
