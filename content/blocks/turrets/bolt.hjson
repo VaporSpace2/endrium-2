@@ -9,7 +9,7 @@ rotateSpeed: 5
 reload: 60
 hasPower: true
 consumes: {
-power: 650
+power: 1
 coolant: {
     amount: 0.1
   }
