@@ -54,7 +54,10 @@ requirements: [
 	copper/45
 ]
 category: "turret"
-research: "duo"
+research: {
+  parent: duo
+  objectives: [frozenForest]
+  }
 coolantMultiplier: 2
 consumes: {
   coolant: {
